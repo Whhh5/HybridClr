@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote-AOTGenericSharing
+  m_EditorClassIdentifier: 
+  m_GroupName: Remote-AOTGenericSharing
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b1791fa41f15bac48b0719da18b6d76c
+  m_SerializeEntries:
+  - m_GUID: a9b81d0043ba8df428c4a83a090b3429
+    m_Address: Assets/Resources_moved/AOTGenericSharing
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOTGenericSharing
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a4f0adaa2bb6072488dad739ddc04558, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7cad228acefe869499cc2ee07da2e657, type: 2}
+    - {fileID: 11400000, guid: 40871b2b7d3110d44beeaa9b135e419a, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote-Modules
+  m_EditorClassIdentifier: 
+  m_GroupName: Remote-Modules
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1aa77ba5e360dfe4a83c3f26d142973a
+  m_SerializeEntries:
+  - m_GUID: 417ab107752028c49bff771eeab2a380
+    m_Address: Assets/Resources_moved/Modules/Canvas.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87f9210328b1f344ea38de20974304c8
+    m_Address: Assets/Resources_moved/Modules/CoreManager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a4f0adaa2bb6072488dad739ddc04558, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fdd496399884d4c4c869034b5b2bd31c, type: 2}
+    - {fileID: 11400000, guid: f16d8b7fb2cd7244882d8be609fe8da2, type: 2}

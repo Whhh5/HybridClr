@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote-HotDlls
+  m_EditorClassIdentifier: 
+  m_GroupName: Remote-HotDlls
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 033d2eb1a10bf5646a0565c4c58c91d6
+  m_SerializeEntries:
+  - m_GUID: 2fc6bb2f0233bff4286cb7b003bbfe41
+    m_Address: Assets/Resources_moved/HotDlls
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HotUpdateAssembly
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a4f0adaa2bb6072488dad739ddc04558, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2a36ed6ffe4c30540b82effbdaa77276, type: 2}
+    - {fileID: 11400000, guid: c11747f676c8f4642b4e00702438ba41, type: 2}
