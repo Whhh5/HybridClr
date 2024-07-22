@@ -17,12 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 1aa77ba5e360dfe4a83c3f26d142973a
   m_SerializeEntries:
-  - m_GUID: 417ab107752028c49bff771eeab2a380
-    m_Address: Assets/Resources_moved/Modules/Canvas.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 87f9210328b1f344ea38de20974304c8
-    m_Address: Assets/Resources_moved/Modules/CoreManager.prefab
+  - m_GUID: 4ef6cc1297669ad499b4f51e154cdc99
+    m_Address: Assets/Resources_moved/Modules
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

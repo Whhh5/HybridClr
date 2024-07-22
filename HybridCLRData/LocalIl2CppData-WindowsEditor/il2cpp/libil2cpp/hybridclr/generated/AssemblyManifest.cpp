@@ -8,7 +8,8 @@ namespace hybridclr
 		"HotUpdateAssembly",
 		"TestAssembly",
 		"TestDll",
-		"TestDll2",
+		"PlaceHolderDll1",
+		"PlaceHolderDll2",
 
 		//!!!}}PLACE_HOLDER
 		nullptr,

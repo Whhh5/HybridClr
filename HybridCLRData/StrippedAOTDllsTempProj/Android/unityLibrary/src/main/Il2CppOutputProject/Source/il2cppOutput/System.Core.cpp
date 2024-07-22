@@ -69,7 +69,6 @@ IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t5DDE4D49B7405FAAB1E4576
 IL2CPP_EXTERN_C String_t* _stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D0E978C2541B8A36DFB07E397656689CE9E713F;
 IL2CPP_EXTERN_C String_t* _stringLiteralB7E78BE66617B9AE36B6A6E170E3545EE25C1D11;
-IL2CPP_EXTERN_C String_t* _stringLiteralE68F97D6FE7BDE1580C3707638EA581299D01EDE;
 IL2CPP_EXTERN_C const RuntimeMethod* BitHelper_IsMarked_m0A02826959B4EF6381B8F6C7DF0EDBFC55EE8EF2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BitHelper_MarkBit_m12EFF71C5444F4E4D076F514C0C0723B39E50F86_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BitHelper_ToIntArrayLength_m59204C3775D26A8B9532246C2F384C92D02E713C_RuntimeMethod_var;
@@ -80,7 +79,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Min_m3D3C3E5CE25D27D94448CA832FB
 IL2CPP_EXTERN_C const RuntimeMethod* Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Error_MoreThanOneMatch_mE8ABBCC1C5FBA4D7BBE5B0647992D20F005F7A97_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Error_NoElements_m49C996124733B026EA2FDBE9382AAD136CA22362_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Error_NoMatch_mD5BC0E5ED29A185D01A63F3C17EA2C29E32C2BE4_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -425,27 +423,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_NoElements_m49C996124733B0
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_0 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_0, _stringLiteralB7E78BE66617B9AE36B6A6E170E3545EE25C1D11, NULL);
-		return L_0;
-	}
-}
-// System.Exception System.Linq.Error::NoMatch()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_NoMatch_mD5BC0E5ED29A185D01A63F3C17EA2C29E32C2BE4 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Error_NoMatch_mD5BC0E5ED29A185D01A63F3C17EA2C29E32C2BE4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE68F97D6FE7BDE1580C3707638EA581299D01EDE);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Error_NoMatch_mD5BC0E5ED29A185D01A63F3C17EA2C29E32C2BE4_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Error_NoMatch_mD5BC0E5ED29A185D01A63F3C17EA2C29E32C2BE4_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
-	{
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_0 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_0, _stringLiteralE68F97D6FE7BDE1580C3707638EA581299D01EDE, NULL);
 		return L_0;
 	}
 }

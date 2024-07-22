@@ -23,7 +23,7 @@ static const char* g_methodExecutionContextInfoStrings[1] = { NULL };
 static const char* g_methodExecutionContextInfoStrings[1] = { NULL };
 #endif
 #if IL2CPP_MONO_DEBUGGER
-static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[54] = 
+static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[40] = 
 {
 	{ 0, 0 } /* 0x06000001 System.Void DG.Tweening.DOTweenVisualManager::Awake() */,
 	{ 0, 0 } /* 0x06000002 System.Void DG.Tweening.DOTweenVisualManager::Update() */,
@@ -54,31 +54,17 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 	{ 0, 0 } /* 0x0600001B System.Void DG.Tweening.DOTweenPath::ReEvaluateRelativeTween() */,
 	{ 0, 0 } /* 0x0600001C System.Void DG.Tweening.DOTweenPath::.ctor() */,
 	{ 0, 0 } /* 0x0600001D System.Void DG.Tweening.DOTweenPath::<Awake>b__44_0() */,
-	{ 0, 0 } /* 0x0600001E System.Void DG.Tweening.DOTweenPro::.ctor() */,
-	{ 0, 0 } /* 0x0600001F System.Void DG.Tweening.DOTweenPro::.cctor() */,
-	{ 0, 0 } /* 0x06000020 System.Void DG.Tweening.Plugins.SpiralOptions::Reset() */,
-	{ 0, 0 } /* 0x06000021 System.Void DG.Tweening.Plugins.SpiralPlugin::Reset(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>) */,
-	{ 0, 0 } /* 0x06000022 System.Void DG.Tweening.Plugins.SpiralPlugin::SetFrom(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,System.Boolean) */,
-	{ 0, 0 } /* 0x06000023 System.Void DG.Tweening.Plugins.SpiralPlugin::SetFrom(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,UnityEngine.Vector3,System.Boolean,System.Boolean) */,
-	{ 0, 0 } /* 0x06000024 DG.Tweening.Plugins.Core.ABSTweenPlugin`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions> DG.Tweening.Plugins.SpiralPlugin::Get() */,
-	{ 0, 0 } /* 0x06000025 UnityEngine.Vector3 DG.Tweening.Plugins.SpiralPlugin::ConvertToStartValue(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,UnityEngine.Vector3) */,
-	{ 0, 0 } /* 0x06000026 System.Void DG.Tweening.Plugins.SpiralPlugin::SetRelativeEndValue(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>) */,
-	{ 0, 0 } /* 0x06000027 System.Void DG.Tweening.Plugins.SpiralPlugin::SetChangeValue(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>) */,
-	{ 0, 0 } /* 0x06000028 System.Single DG.Tweening.Plugins.SpiralPlugin::GetSpeedBasedDuration(DG.Tweening.Plugins.SpiralOptions,System.Single,UnityEngine.Vector3) */,
-	{ 0, 0 } /* 0x06000029 System.Void DG.Tweening.Plugins.SpiralPlugin::EvaluateAndApply(DG.Tweening.Plugins.SpiralOptions,DG.Tweening.Tween,System.Boolean,DG.Tweening.Core.DOGetter`1<UnityEngine.Vector3>,DG.Tweening.Core.DOSetter`1<UnityEngine.Vector3>,System.Single,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean,DG.Tweening.Core.Enums.UpdateNotice) */,
-	{ 0, 0 } /* 0x0600002A System.Void DG.Tweening.Plugins.SpiralPlugin::.ctor() */,
-	{ 0, 0 } /* 0x0600002B System.Void DG.Tweening.Plugins.SpiralPlugin::.cctor() */,
-	{ 0, 0 } /* 0x0600002C System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlay() */,
-	{ 0, 0 } /* 0x0600002D System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlayBackwards() */,
-	{ 0, 0 } /* 0x0600002E System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlayForward() */,
-	{ 0, 0 } /* 0x0600002F System.Void DG.Tweening.Core.ABSAnimationComponent::DOPause() */,
-	{ 0, 0 } /* 0x06000030 System.Void DG.Tweening.Core.ABSAnimationComponent::DOTogglePause() */,
-	{ 0, 0 } /* 0x06000031 System.Void DG.Tweening.Core.ABSAnimationComponent::DORewind() */,
-	{ 0, 0 } /* 0x06000032 System.Void DG.Tweening.Core.ABSAnimationComponent::DORestart() */,
-	{ 0, 0 } /* 0x06000033 System.Void DG.Tweening.Core.ABSAnimationComponent::DORestart(System.Boolean) */,
-	{ 0, 0 } /* 0x06000034 System.Void DG.Tweening.Core.ABSAnimationComponent::DOComplete() */,
-	{ 0, 0 } /* 0x06000035 System.Void DG.Tweening.Core.ABSAnimationComponent::DOKill() */,
-	{ 0, 0 } /* 0x06000036 System.Void DG.Tweening.Core.ABSAnimationComponent::.ctor() */,
+	{ 0, 0 } /* 0x0600001E System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlay() */,
+	{ 0, 0 } /* 0x0600001F System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlayBackwards() */,
+	{ 0, 0 } /* 0x06000020 System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlayForward() */,
+	{ 0, 0 } /* 0x06000021 System.Void DG.Tweening.Core.ABSAnimationComponent::DOPause() */,
+	{ 0, 0 } /* 0x06000022 System.Void DG.Tweening.Core.ABSAnimationComponent::DOTogglePause() */,
+	{ 0, 0 } /* 0x06000023 System.Void DG.Tweening.Core.ABSAnimationComponent::DORewind() */,
+	{ 0, 0 } /* 0x06000024 System.Void DG.Tweening.Core.ABSAnimationComponent::DORestart() */,
+	{ 0, 0 } /* 0x06000025 System.Void DG.Tweening.Core.ABSAnimationComponent::DORestart(System.Boolean) */,
+	{ 0, 0 } /* 0x06000026 System.Void DG.Tweening.Core.ABSAnimationComponent::DOComplete() */,
+	{ 0, 0 } /* 0x06000027 System.Void DG.Tweening.Core.ABSAnimationComponent::DOKill() */,
+	{ 0, 0 } /* 0x06000028 System.Void DG.Tweening.Core.ABSAnimationComponent::.ctor() */,
 };
 #else
 static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[1] = { { 0, 0} };
@@ -111,7 +97,7 @@ static const Il2CppMethodScope g_methodScopes[1] = { { 0, 0 } };
 static const Il2CppMethodScope g_methodScopes[1] = { { 0, 0 } };
 #endif
 #if IL2CPP_MONO_DEBUGGER
-static const Il2CppMethodHeaderInfo g_methodHeaderInfos[54] = 
+static const Il2CppMethodHeaderInfo g_methodHeaderInfos[40] = 
 {
 	{ 0, 0, 0 } /* System.Void DG.Tweening.DOTweenVisualManager::Awake() */,
 	{ 0, 0, 0 } /* System.Void DG.Tweening.DOTweenVisualManager::Update() */,
@@ -142,20 +128,6 @@ static const Il2CppMethodHeaderInfo g_methodHeaderInfos[54] =
 	{ 0, 0, 0 } /* System.Void DG.Tweening.DOTweenPath::ReEvaluateRelativeTween() */,
 	{ 0, 0, 0 } /* System.Void DG.Tweening.DOTweenPath::.ctor() */,
 	{ 0, 0, 0 } /* System.Void DG.Tweening.DOTweenPath::<Awake>b__44_0() */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.DOTweenPro::.ctor() */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.DOTweenPro::.cctor() */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralOptions::Reset() */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralPlugin::Reset(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>) */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralPlugin::SetFrom(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,System.Boolean) */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralPlugin::SetFrom(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,UnityEngine.Vector3,System.Boolean,System.Boolean) */,
-	{ 0, 0, 0 } /* DG.Tweening.Plugins.Core.ABSTweenPlugin`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions> DG.Tweening.Plugins.SpiralPlugin::Get() */,
-	{ 0, 0, 0 } /* UnityEngine.Vector3 DG.Tweening.Plugins.SpiralPlugin::ConvertToStartValue(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,UnityEngine.Vector3) */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralPlugin::SetRelativeEndValue(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>) */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralPlugin::SetChangeValue(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>) */,
-	{ 0, 0, 0 } /* System.Single DG.Tweening.Plugins.SpiralPlugin::GetSpeedBasedDuration(DG.Tweening.Plugins.SpiralOptions,System.Single,UnityEngine.Vector3) */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralPlugin::EvaluateAndApply(DG.Tweening.Plugins.SpiralOptions,DG.Tweening.Tween,System.Boolean,DG.Tweening.Core.DOGetter`1<UnityEngine.Vector3>,DG.Tweening.Core.DOSetter`1<UnityEngine.Vector3>,System.Single,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean,DG.Tweening.Core.Enums.UpdateNotice) */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralPlugin::.ctor() */,
-	{ 0, 0, 0 } /* System.Void DG.Tweening.Plugins.SpiralPlugin::.cctor() */,
 	{ 0, 0, 0 } /* System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlay() */,
 	{ 0, 0, 0 } /* System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlayBackwards() */,
 	{ 0, 0, 0 } /* System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlayForward() */,

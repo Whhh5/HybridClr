@@ -8,30 +8,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 164
-    y: 53
-    width: 1636
-    height: 926
-  m_ShowMode: 0
-  m_Title: Android Logcat
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -43,11 +19,37 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
-  m_RootView: {fileID: 9}
+  m_Title: Game
+  m_RootView: {fileID: 11}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: PlayableGraphVisualizerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 412
+    width: 1017
+    height: 535
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,24 +59,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 903
+    y: 0
+    width: 1017
+    height: 947
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 1972
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AndroidLogcatConsoleWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 386
     y: 0
-    width: 1636
-    height: 926
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 15}
+    width: 517
+    height: 410
+  m_MinSize: {x: 277, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &4
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,18 +114,124 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
+  - {fileID: 8}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1636
-    height: 926
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
+    width: 903
+    height: 410
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 143
---- !u!114 &5
+  controlID: 1826
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 410
+    width: 903
+    height: 537
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 903
+    height: 947
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 1798
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 386
+    height: 410
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1017
+    height: 412
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 19}
+  - {fileID: 20}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,8 +244,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -122,87 +255,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 127
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1261
-    y: 0
-    width: 659
-    height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
-  m_Panes:
-  - {fileID: 21}
-  - {fileID: 25}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 299
-    height: 562
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
-  m_Panes:
-  - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &8
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 562
-    width: 1261
-    height: 385
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 20}
-  m_Panes:
-  - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &9
+  controlID: 1797
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,9 +269,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 12}
   - {fileID: 10}
-  - {fileID: 5}
-  - {fileID: 11}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -230,7 +284,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &10
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -252,7 +306,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &11
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -273,56 +327,6 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 13}
-  - {fileID: 8}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1261
-    height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 128
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 7}
-  - {fileID: 14}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1261
-    height: 562
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 129
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -331,29 +335,26 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5877bb4ffe3464b96f021ac399d1a9, type: 3}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: PlayableGraph Visualizer
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
     serializedVersion: 2
-    x: 299
-    y: 0
-    width: 962
-    height: 562
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 23}
-  m_Panes:
-  - {fileID: 23}
-  - {fileID: 24}
-  - {fileID: 19}
-  - {fileID: 18}
-  - {fileID: 16}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 4
+    x: 903
+    y: 485
+    width: 1016
+    height: 514
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,25 +364,89 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9b4e439aace6446a0642ca97e8f43b, type: 3}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Android Logcat
-    m_Image: {fileID: 0}
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 164
-    y: 53
-    width: 1636
-    height: 905
+    x: 0
+    y: 483
+    width: 902
+    height: 516
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 1
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 902, y: 495}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 1
+  m_Stats: 1
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -451
+    m_HBaseRangeMax: 451
+    m_VBaseRangeMin: -247.5
+    m_VBaseRangeMax: 247.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 902
+      height: 495
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 451, y: 247.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -451
+      y: -247.5
+      width: 902
+      height: 495
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 902, y: 516}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,994 +456,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 310, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Project Settings
-    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 299
-    y: 73
-    width: 960
-    height: 541
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_PosLeft: {x: 0, y: 0}
-  m_PosRight: {x: 0, y: 360}
-  m_Scope: 1
-  m_SplitterFlex: 0.2
-  m_SearchText: 
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 66b98436
-    m_LastClickedID: 914667878
-    m_ExpandedIDs: a01a5fa6000000007a363d4bc53aba5a
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12043, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 640, y: 580}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Build Settings
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 291
-    y: 73
-    width: 946
-    height: 541
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06001668
-    m_LastClickedID: 1746272262
-    m_ExpandedIDs: ffffffff
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9834b3849844b497cbdd2afdd4701e4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Addressables Hosting
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 291
-    y: 73
-    width: 946
-    height: 541
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_LogText: '[Local Hosting 0] Port 49769 is in use, cannot start service!
-
-    [Local
-    Hosting 0] Started. Listening on port 49770. Hosting 2 folders.
-
-    [Local Hosting
-    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-24T11:22:10.9840344+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.03.21.40.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T11:22:11.0215020+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.03.21.40.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T11:22:11.0284823+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.03.21.40.json"
-    200 15160
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T11:22:11.2243299+08:00]
-    "ServerData/StandaloneWindows64/remote-hotscripts_assets_all_14e47a6295b042fbf0ef288cd5f41b6a.bundle"
-    200 3946
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T11:22:11.3220195+08:00]
-    "ServerData/StandaloneWindows64/remote-group_assets_all_464fe058a4b84461cdef0f079ca20043.bundle"
-    200 365688
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T11:31:32.4429794+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.03.21.40.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T11:31:32.4599340+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.03.21.40.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T11:31:32.4719037+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.03.21.40.json" 200 15160
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T11:31:32.6674582+08:00] "ServerData/StandaloneWindows64/remote-hotscripts_assets_all_2545dab725274cbd0d9bd1ebda0a204d.bundle"
-    200 4127
-
-    [Local Hosting 0] Started. Listening on port 49770. Hosting 2 folders.
-
-    [Local
-    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-24T14:21:53.6815221+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.04.59.07.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T14:24:04.4617796+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.04.59.07.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T14:24:04.4797325+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.04.59.07.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T14:24:04.4907025+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.04.59.07.json" 200 15164
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T14:24:04.6864342+08:00] "ServerData/StandaloneWindows64/remote-hotscripts_assets_all_f28f6076b8710c7183032eac6f3579e1.bundle"
-    200 4248
-
-    [Local Hosting 0] Started. Listening on port 49770. Hosting 2 folders.
-
-    [Local
-    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-24T14:42:27.7246922+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.06.40.38.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T14:42:27.7466339+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.06.40.38.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T14:42:27.7566065+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.06.40.38.json"
-    200 15164
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T14:42:27.9548081+08:00]
-    "ServerData/StandaloneWindows64/remote-hotscripts_assets_all_e30b446bb6f5ed78f6b971aff1d941fb.bundle"
-    200 4201
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T14:42:28.0506272+08:00]
-    "ServerData/StandaloneWindows64/remote-group_assets_all_3ec2ab173499ef5f436e9bf6b66eaaf8.bundle"
-    200 365831
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T17:08:08.9147363+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.09.01.10.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T17:08:21.0962497+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.01.10.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T17:09:35.9115436+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.09.01.10.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T17:19:52.4081938+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.19.19.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T17:19:52.4790061+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.09.19.19.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T17:19:52.5740885+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.19.19.json"
-    200 15164
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T17:19:52.8519089+08:00]
-    "ServerData/StandaloneWindows64/remote-group_assets_all_f3a4f3f9ebfcefc2a87a15ac7e89302a.bundle"
-    200 366206
-
-    [Local Hosting 0] Started. Listening on port 49773. Hosting 2
-    folders.
-
-    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] Stopping
-
-    [Local
-    Hosting 0] Started. Listening on port 49774. Hosting 2 folders.
-
-    [Local Hosting
-    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] Stopping
-
-    [Local
-    Hosting 0] Started. Listening on port 49774. Hosting 2 folders.
-
-    [Local Hosting
-    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-24T18:00:19.7039503+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T18:00:19.7360182+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T18:00:19.7459932+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.json"
-    200 15164
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T18:00:19.9490192+08:00]
-    "ServerData/StandaloneWindows64/remote-hotscripts_assets_all_0269f260433e8daac33ba76ddf16f8f2.bundle"
-    200 4282
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T18:02:01.4608371+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T18:02:01.4877636+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T18:02:01.4977365+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.json" 200 15164
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T18:03:10.9551734+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T18:03:10.9687271+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-24T18:03:10.9806954+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.json"
-    200 15164
-
-    [Local Hosting 0] Started. Listening on port 49774. Hosting 2
-    folders.
-
-    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-24T18:22:38.8871346+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-24T18:23:14.7516404+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.24.09.58.45.hash" 200 32
-
-    [Local
-    Hosting 0] Started. Listening on port 49777. Hosting 2 folders.
-
-    [Local Hosting
-    0] Hosting : Library/com.unity.addressables/aa/Android/Android
-
-    [Local Hosting
-    0] Hosting : ServerData/Android
-
-    [Local Hosting 0] Started. Listening on
-    port 49777. Hosting 2 folders.
-
-    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
-
-    [Local
-    Hosting 0] Hosting : ServerData/Android
-
-    [Local Hosting 0] 172.16.71.47 -
-    - [2024-04-25T09:39:27.2479983+08:00] "ServerData/Android/catalog_2024.04.25.01.30.14.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T09:39:27.3932509+08:00]
-    "ServerData/Android/catalog_2024.04.25.01.30.14.hash" 200 32
-
-    [Local Hosting
-    0] 172.16.71.47 - - [2024-04-25T09:39:27.4831448+08:00] "ServerData/Android/catalog_2024.04.25.01.30.14.json"
-    200 15160
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T09:39:27.8513824+08:00]
-    "ServerData/Android/remote-hotscripts_assets_all_e04719566332687bf01ce6762340e725.bundle"
-    200 4643
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T09:39:28.0752920+08:00]
-    "ServerData/Android/remote-group_assets_all_9b1dcf978d6c6ae7d2352308849797ec.bundle"
-    200 370010
-
-    [Local Hosting 0] Started. Listening on port 49777. Hosting 2
-    folders.
-
-    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
-
-    [Local
-    Hosting 0] Hosting : ServerData/Android
-
-    [Local Hosting 0] 172.16.71.47 -
-    - [2024-04-25T10:38:00.2252717+08:00] "ServerData/Android/catalog_2024.04.25.01.30.14.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T10:38:00.3945657+08:00]
-    "ServerData/Android/catalog_2024.04.25.01.30.14.hash" 200 32
-
-    [Local Hosting
-    0] 172.16.71.47 - - [2024-04-25T10:38:00.8971241+08:00] "ServerData/Android/catalog_2024.04.25.01.30.14.json"
-    200 16140
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T10:38:01.2537607+08:00]
-    "ServerData/Android/remote-hotscripts_assets_all_83f3b385e5fedca15a98ed9b88858dc0.bundle"
-    200 4808
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T10:38:01.5229202+08:00]
-    "ServerData/Android/remote-group_assets_all_0effdfdbcc49752ac51f0cf252605152.bundle"
-    200 373324
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T10:39:28.4802079+08:00]
-    "ServerData/Android/catalog_2024.04.25.01.30.14.hash" 200 32
-
-    [Local Hosting
-    0] 172.16.71.47 - - [2024-04-25T10:45:33.5706320+08:00] "ServerData/Android/catalog_2024.04.25.02.42.36.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T10:45:33.6571783+08:00]
-    "ServerData/Android/catalog_2024.04.25.02.42.36.hash" 200 32
-
-    [Local Hosting
-    0] 172.16.71.47 - - [2024-04-25T10:45:33.7219956+08:00] "ServerData/Android/catalog_2024.04.25.02.42.36.json"
-    200 16144
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T10:45:34.1185299+08:00]
-    "ServerData/Android/remote-hotscripts_assets_all_333f4a26ac90221cbee570ee77f59100.bundle"
-    200 4934
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T10:45:34.4290521+08:00]
-    "ServerData/Android/remote-group_assets_all_0effdfdbcc49752ac51f0cf252605152.bundle"
-    200 373324
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T10:47:27.8635046+08:00]
-    "ServerData/Android/catalog_2024.04.25.02.42.36.hash" 200 32
-
-    [Local Hosting
-    0] Started. Listening on port 49777. Hosting 2 folders.
-
-    [Local Hosting 0]
-    Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-25T11:01:02.9819825+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.02.57.05.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T11:01:03.0308235+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.02.57.05.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T11:01:03.1313641+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.02.57.05.json"
-    200 16144
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T11:01:03.3589232+08:00]
-    "ServerData/StandaloneWindows64/remote-hotscripts_assets_all_ef5849f67beb68b3b30c0e1919b4d815.bundle"
-    200 4934
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T11:01:03.4900520+08:00]
-    "ServerData/StandaloneWindows64/remote-group_assets_all_44635f5b1bb1d1565d7a5c1478497954.bundle"
-    200 369451
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T11:01:10.0267140+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.02.57.05.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T11:01:38.1325415+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.02.57.05.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T11:05:35.1934443+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.02.57.05.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T11:05:35.2143889+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.02.57.05.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T11:05:35.2293574+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.02.57.05.json" 200 16140
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T11:05:35.4896151+08:00] "ServerData/StandaloneWindows64/remote-group_assets_all_d818d7c7c781014fcd4aa923c2d86bfa.bundle"
-    200 369446
-
-    [Local Hosting 0] Started. Listening on port 49777. Hosting 2
-    folders.
-
-    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-25T14:47:49.9759629+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.06.20.06.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T14:47:50.0779320+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.06.20.06.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T14:47:50.1738976+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.06.20.06.json"
-    200 16715
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T14:47:50.4361679+08:00]
-    "ServerData/StandaloneWindows64/remote-hotscripts_assets_all_47c4590eff832f1b0eff1847c6041b88.bundle"
-    200 5872
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T14:47:50.5844031+08:00]
-    "ServerData/StandaloneWindows64/remote-group_assets_all_a60e0d6c678aab4b7cf58a5503e5d379.bundle"
-    200 372057
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T14:59:34.5841114+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.06.20.06.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T15:03:40.8301307+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.06.20.06.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T15:06:34.2472002+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.06.20.06.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T15:06:34.2641554+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.06.20.06.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T15:06:34.2761229+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.06.20.06.json" 200 16715
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T15:06:34.5202596+08:00] "ServerData/StandaloneWindows64/remote-group_assets_all_9dbe7c67bd81ba4c1966d0f3fd1b472a.bundle"
-    200 371967
-
-    [Local Hosting 0] Started. Listening on port 49777. Hosting 2
-    folders.
-
-    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-25T16:50:06.8634851+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.08.47.46.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T16:50:06.8924084+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.08.47.46.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T16:50:06.9053790+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.08.47.46.json"
-    200 16715
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T16:50:07.1298138+08:00]
-    "ServerData/StandaloneWindows64/remote-hotscripts_assets_all_765301f7b4efe8856eaef574caeb827a.bundle"
-    200 6183
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T16:50:45.4241552+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.08.47.46.hash" 200 32
-
-    [Local
-    Hosting 0] Started. Listening on port 49777. Hosting 2 folders.
-
-    [Local Hosting
-    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-25T18:32:04.3791896+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.10.29.26.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T18:32:04.3981389+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.10.29.26.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T18:32:04.4121029+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.10.29.26.json"
-    200 18442
-
-    [Local Hosting 0] Started. Listening on port 49777. Hosting 2
-    folders.
-
-    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
-
-    [Local
-    Hosting 0] Hosting : ServerData/StandaloneWindows64
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-25T19:53:08.5708586+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.11.51.24.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-25T19:53:08.5888424+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.25.11.51.24.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-25T19:53:08.6024484+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.25.11.51.24.json"
-    200 18442
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-28T17:25:47.0663448+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.28.09.23.20.hash" 200 32
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-28T17:25:47.1306862+08:00] "ServerData/StandaloneWindows64/catalog_2024.04.28.09.23.20.hash"
-    200 32
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-28T17:25:47.2419356+08:00]
-    "ServerData/StandaloneWindows64/catalog_2024.04.28.09.23.20.json" 200 20131
-
-    [Local
-    Hosting 0] 172.16.71.47 - - [2024-04-28T17:25:47.4760715+08:00] "ServerData/StandaloneWindows64/remote-hotdlls_assets_all_3f855612322efb5430f4bf5992d8a690.bundle"
-    200 6819
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-30T22:09:23.3484974+08:00]
-    "" 404 -
-
-    [Local Hosting 0] 172.16.71.47 - - [2024-04-30T22:09:23.4722022+08:00]
-    "ServerData/Android/remote-hotdlls_assets_all_d626b8a925b9bfecd40a458ea9c012fe.bundle"
-    200 7522
-
-    [Local Hosting 0] Stopping
-
-    [Local Hosting 0] Started. Listening
-    on port 49779. Hosting 2 folders.
-
-    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
-
-    [Local
-    Hosting 0] Hosting : ServerData/Android
-
-    [Local Hosting 0] 172.16.71.47 -
-    - [2024-04-30T22:11:06.1135939+08:00] "" 404 -
-
-    [Local Hosting 0] 172.16.71.47
-    - - [2024-04-30T22:11:06.1854713+08:00] "ServerData/Android/remote-hotdlls_assets_all_d626b8a925b9bfecd40a458ea9c012fe.bundle"
-    200 7522
-
-'
-  m_LogScrollPos: {x: 0, y: 2067}
-  m_ServicesScrollPos: {x: 0, y: 0}
-  m_VerticalSplitterRatio: 0.67
-  m_Settings: {fileID: 11400000, guid: a4f0adaa2bb6072488dad739ddc04558, type: 2}
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e98b4a8982e76bc4d86c10db25cd7193, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 430, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Addressables Groups
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 290
-    y: 73
-    width: 946
-    height: 540
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_GroupEditor:
-    m_TreeState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 989052c963b01d0a4e2d8a4e7202dd506f1c8062
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 14}
-      m_SearchString: 
-    m_Mchs:
-      m_Columns:
-      - width: 440.18182
-        sortedAscending: 0
-        headerContent:
-          m_Text: Group Name \ Addressable Name
-          m_Image: {fileID: 0}
-          m_Tooltip: Address used to load asset at runtime
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 100
-        maxWidth: 10000
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 1
-        userData: 0
-      - width: 20
-        sortedAscending: 0
-        headerContent:
-          m_Text: 
-          m_Image: {fileID: 3147778976006948682, guid: 0000000000000000d000000000000000, type: 0}
-          m_Tooltip: Asset type
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 20
-        maxWidth: 20
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 0
-        userData: 0
-      - width: 308.18182
-        sortedAscending: 1
-        headerContent:
-          m_Text: Path
-          m_Image: {fileID: 0}
-          m_Tooltip: Current Path of asset
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 100
-        maxWidth: 10000
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 1
-        userData: 0
-      - width: 61.636364
-        sortedAscending: 0
-        headerContent:
-          m_Text: Labels
-          m_Image: {fileID: 0}
-          m_Tooltip: Assets can have multiple labels
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 20
-        maxWidth: 1000
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 1
-        userData: 0
-      m_VisibleColumns: 00000000010000000200000003000000
-      m_SortedColumns: 02000000
-    window: {fileID: 19}
-    m_VerticalSplitterPercent: 0.8037037
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 635
-    width: 1260
-    height: 364
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets/Scripts/HotUpdateAssembly/GameModule
-    m_Globs: []
-    m_OriginalText: 
-  m_ViewMode: 1
-  m_StartGridSize: 16
-  m_LastFolders:
-  - Assets/Scripts/HotUpdateAssembly/GameModule
-  m_LastFoldersGridSize: 16
-  m_LastProjectPath: F:\MyProject\HyBridCLR\HybridCLR1
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 140}
-    m_SelectedIDs: 54640000
-    m_LastClickedID: 25684
-    m_ExpandedIDs: 0000000050640000526400005464000056640000586400005a6400005c6400005e6400006064000062640000646400006664000000ca9a3b
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 8}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050640000526400005464000056640000586400005a6400005c6400005e64000060640000626400006464000066640000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000008720000fe0b0000f60b0000f40b000000000000a86700002c500000ac170000660c00005e10000056650000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 8}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 16
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1261
-    y: 73
-    width: 658
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
---- !u!114 &22
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 73
-    width: 298
-    height: 541
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 32fbffff
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &23
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
@@ -1386,10 +467,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 299
-    y: 73
-    width: 960
-    height: 541
+    x: 0
+    y: 483
+    width: 867
+    height: 516
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1581,19 +662,19 @@ MonoBehaviour:
       id: Scene View/Particles
       index: 10
       layout: 4
-  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_WindowGUID: 5a94e8f227f8b5d4598710b36e82ce5b
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.7427139, y: 2.664762, z: 314.0267}
+    m_Target: {x: 17.45746, y: -0.4824971, z: 4.2290735}
     speed: 2
-    m_Value: {x: -0.7427139, y: 2.664762, z: 314.0267}
+    m_Value: {x: 17.45746, y: -0.4824971, z: 4.2290735}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1622,17 +703,17 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1640,21 +721,21 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.19610447, y: -0.66452324, z: 0.18713571, w: 0.6963713}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.19610438, y: -0.66452295, z: 0.18713562, w: 0.69637096}
   m_Size:
-    m_Target: 65.0101
+    m_Target: 16.49957
     speed: 2
-    m_Value: 65.0101
+    m_Value: 16.49957
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.001
+    m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
@@ -1664,14 +745,112 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &24
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 385
+    height: 389
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 30740000
+      m_LastClickedID: 29744
+      m_ExpandedIDs: 32fbffff30740000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: Main Camera
+        m_OriginalName: Main Camera
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 29762
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 0
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 8}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 8bd2d690f15722941b7cb19e05a47fac
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 386
+    y: 73
+    width: 515
+    height: 389
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -204
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1680,90 +859,138 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 290
+    x: 1234
     y: 73
-    width: 946
-    height: 540
+    width: 685
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 946, y: 519}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -473
-    m_HBaseRangeMax: 473
-    m_VBaseRangeMin: -259.5
-    m_VBaseRangeMax: 259.5
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 946
-      height: 519
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 473, y: 259.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -473
-      y: -259.5
-      width: 946
-      height: 519
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 946, y: 540}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &25
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scenes
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Scenes
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: F:\MyProject\HyBridCLR\HybridCLR1
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 06740000
+    m_LastClickedID: 29702
+    m_ExpandedIDs: 00000000187700001a7700001c7700001e77000020770000227700002477000026770000287700002a7700002c7700002e7700003077000032770000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 9}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000187700001a7700001c7700001e77000020770000227700002477000026770000287700002a7700002c7700002e7700003077000032770000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000008720000fe0b0000f60b0000f40b000000000000a86700002c500000ac170000660c00005e10000056650000e22700004e1b0000ba0c0000421c0000461c000044660000aeae0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 9}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 406
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1783,10 +1010,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1261
+    x: 903
     y: 73
-    width: 658
-    height: 926
+    width: 1016
+    height: 391
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

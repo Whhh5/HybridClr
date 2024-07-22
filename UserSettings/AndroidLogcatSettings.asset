@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "emulator-5554",
         "name": "com.q1.TheBigWorld",
-        "processId": 3193,
+        "processId": 3643,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,37 +11,31 @@
         {
             "deviceId": "emulator-5554",
             "name": "com.q1.TheBigWorld",
-            "processId": 3311,
+            "processId": 2916,
             "exited": true
         },
         {
             "deviceId": "emulator-5554",
             "name": "com.q1.TheBigWorld",
-            "processId": 4398,
+            "processId": 4621,
             "exited": true
         },
         {
             "deviceId": "emulator-5554",
             "name": "com.q1.TheBigWorld",
-            "processId": 2677,
+            "processId": 4816,
             "exited": true
         },
         {
             "deviceId": "emulator-5554",
             "name": "com.q1.TheBigWorld",
-            "processId": 3047,
+            "processId": 2926,
             "exited": true
         },
         {
             "deviceId": "emulator-5554",
-            "name": "com.android.launcher3",
-            "processId": 2299,
-            "exited": false
-        },
-        {
-            "deviceId": "emulator-5554",
             "name": "com.q1.TheBigWorld",
-            "processId": 3193,
+            "processId": 3643,
             "exited": false
         }
     ],

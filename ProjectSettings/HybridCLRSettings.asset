@@ -21,7 +21,8 @@ MonoBehaviour:
   - {fileID: 5897886265953266890, guid: 0da5bff2614c3f94fa84990f24c9217b, type: 3}
   hotUpdateAssemblies:
   - TestDll
-  - TestDll2
+  - PlaceHolderDll1
+  - PlaceHolderDll2
   preserveHotUpdateAssemblies: []
   hotUpdateDllCompileOutputRootDir: HybridCLRData/HotUpdateDlls
   externalHotUpdateAssembliyDirs:

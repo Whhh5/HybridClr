@@ -188,52 +188,74 @@ extern void BitHelper_IsMarked_m0A02826959B4EF6381B8F6C7DF0EDBFC55EE8EF2 (void);
 extern void BitHelper_ToIntArrayLength_m59204C3775D26A8B9532246C2F384C92D02E713C (void);
 // 0x000000A4 System.Void System.Collections.Generic.HashSet`1::.ctor()
 // 0x000000A5 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
-// 0x000000A6 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-// 0x000000A7 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEnumerable`1<T>,System.Collections.Generic.IEqualityComparer`1<T>)
-// 0x000000A8 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x000000A9 System.Void System.Collections.Generic.HashSet`1::CopyFrom(System.Collections.Generic.HashSet`1<T>)
-// 0x000000AA System.Void System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.Add(T)
-// 0x000000AB System.Void System.Collections.Generic.HashSet`1::Clear()
-// 0x000000AC System.Boolean System.Collections.Generic.HashSet`1::Contains(T)
-// 0x000000AD System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32)
-// 0x000000AE System.Boolean System.Collections.Generic.HashSet`1::Remove(T)
-// 0x000000AF System.Int32 System.Collections.Generic.HashSet`1::get_Count()
-// 0x000000B0 System.Boolean System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-// 0x000000B1 System.Collections.Generic.HashSet`1/Enumerator<T> System.Collections.Generic.HashSet`1::GetEnumerator()
-// 0x000000B2 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.HashSet`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x000000B3 System.Collections.IEnumerator System.Collections.Generic.HashSet`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x000000B4 System.Void System.Collections.Generic.HashSet`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x000000B5 System.Void System.Collections.Generic.HashSet`1::OnDeserialization(System.Object)
-// 0x000000B6 System.Boolean System.Collections.Generic.HashSet`1::Add(T)
-// 0x000000B7 System.Void System.Collections.Generic.HashSet`1::UnionWith(System.Collections.Generic.IEnumerable`1<T>)
-// 0x000000B8 System.Void System.Collections.Generic.HashSet`1::IntersectWith(System.Collections.Generic.IEnumerable`1<T>)
-// 0x000000B9 System.Boolean System.Collections.Generic.HashSet`1::SetEquals(System.Collections.Generic.IEnumerable`1<T>)
-// 0x000000BA System.Void System.Collections.Generic.HashSet`1::CopyTo(T[])
-// 0x000000BB System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32,System.Int32)
-// 0x000000BC System.Int32 System.Collections.Generic.HashSet`1::RemoveWhere(System.Predicate`1<T>)
-// 0x000000BD System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1::get_Comparer()
-// 0x000000BE System.Void System.Collections.Generic.HashSet`1::TrimExcess()
-// 0x000000BF System.Int32 System.Collections.Generic.HashSet`1::Initialize(System.Int32)
-// 0x000000C0 System.Void System.Collections.Generic.HashSet`1::IncreaseCapacity()
-// 0x000000C1 System.Void System.Collections.Generic.HashSet`1::SetCapacity(System.Int32)
-// 0x000000C2 System.Boolean System.Collections.Generic.HashSet`1::AddIfNotPresent(T)
-// 0x000000C3 System.Void System.Collections.Generic.HashSet`1::AddValue(System.Int32,System.Int32,T)
-// 0x000000C4 System.Boolean System.Collections.Generic.HashSet`1::ContainsAllElements(System.Collections.Generic.IEnumerable`1<T>)
-// 0x000000C5 System.Void System.Collections.Generic.HashSet`1::IntersectWithHashSetWithSameEC(System.Collections.Generic.HashSet`1<T>)
-// 0x000000C6 System.Void System.Collections.Generic.HashSet`1::IntersectWithEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-// 0x000000C7 System.Int32 System.Collections.Generic.HashSet`1::InternalIndexOf(T)
-// 0x000000C8 System.Collections.Generic.HashSet`1/ElementCount<T> System.Collections.Generic.HashSet`1::CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable`1<T>,System.Boolean)
-// 0x000000C9 System.Boolean System.Collections.Generic.HashSet`1::AreEqualityComparersEqual(System.Collections.Generic.HashSet`1<T>,System.Collections.Generic.HashSet`1<T>)
-// 0x000000CA System.Int32 System.Collections.Generic.HashSet`1::InternalGetHashCode(T)
-// 0x000000CB System.Void System.Collections.Generic.HashSet`1/Enumerator::.ctor(System.Collections.Generic.HashSet`1<T>)
-// 0x000000CC System.Void System.Collections.Generic.HashSet`1/Enumerator::Dispose()
-// 0x000000CD System.Boolean System.Collections.Generic.HashSet`1/Enumerator::MoveNext()
-// 0x000000CE T System.Collections.Generic.HashSet`1/Enumerator::get_Current()
-// 0x000000CF System.Object System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x000000D0 System.Void System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.Reset()
-// 0x000000D1 System.Void System.Collections.Generic.ICollectionDebugView`1::.ctor(System.Collections.Generic.ICollection`1<T>)
-// 0x000000D2 T[] System.Collections.Generic.ICollectionDebugView`1::get_Items()
-static Il2CppMethodPointer s_methodPointers[210] = 
+// 0x000000A6 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Int32)
+// 0x000000A7 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000A8 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEnumerable`1<T>,System.Collections.Generic.IEqualityComparer`1<T>)
+// 0x000000A9 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000000AA System.Void System.Collections.Generic.HashSet`1::CopyFrom(System.Collections.Generic.HashSet`1<T>)
+// 0x000000AB System.Void System.Collections.Generic.HashSet`1::.ctor(System.Int32,System.Collections.Generic.IEqualityComparer`1<T>)
+// 0x000000AC System.Void System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.Add(T)
+// 0x000000AD System.Void System.Collections.Generic.HashSet`1::Clear()
+// 0x000000AE System.Boolean System.Collections.Generic.HashSet`1::Contains(T)
+// 0x000000AF System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32)
+// 0x000000B0 System.Boolean System.Collections.Generic.HashSet`1::Remove(T)
+// 0x000000B1 System.Int32 System.Collections.Generic.HashSet`1::get_Count()
+// 0x000000B2 System.Boolean System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+// 0x000000B3 System.Collections.Generic.HashSet`1/Enumerator<T> System.Collections.Generic.HashSet`1::GetEnumerator()
+// 0x000000B4 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.HashSet`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x000000B5 System.Collections.IEnumerator System.Collections.Generic.HashSet`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x000000B6 System.Void System.Collections.Generic.HashSet`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000000B7 System.Void System.Collections.Generic.HashSet`1::OnDeserialization(System.Object)
+// 0x000000B8 System.Boolean System.Collections.Generic.HashSet`1::Add(T)
+// 0x000000B9 System.Boolean System.Collections.Generic.HashSet`1::TryGetValue(T,T&)
+// 0x000000BA System.Void System.Collections.Generic.HashSet`1::UnionWith(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000BB System.Void System.Collections.Generic.HashSet`1::IntersectWith(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000BC System.Void System.Collections.Generic.HashSet`1::ExceptWith(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000BD System.Void System.Collections.Generic.HashSet`1::SymmetricExceptWith(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000BE System.Boolean System.Collections.Generic.HashSet`1::IsSubsetOf(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000BF System.Boolean System.Collections.Generic.HashSet`1::IsProperSubsetOf(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000C0 System.Boolean System.Collections.Generic.HashSet`1::IsSupersetOf(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000C1 System.Boolean System.Collections.Generic.HashSet`1::IsProperSupersetOf(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000C2 System.Boolean System.Collections.Generic.HashSet`1::Overlaps(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000C3 System.Boolean System.Collections.Generic.HashSet`1::SetEquals(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000C4 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[])
+// 0x000000C5 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32,System.Int32)
+// 0x000000C6 System.Int32 System.Collections.Generic.HashSet`1::RemoveWhere(System.Predicate`1<T>)
+// 0x000000C7 System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1::get_Comparer()
+// 0x000000C8 System.Int32 System.Collections.Generic.HashSet`1::EnsureCapacity(System.Int32)
+// 0x000000C9 System.Void System.Collections.Generic.HashSet`1::TrimExcess()
+// 0x000000CA System.Collections.Generic.IEqualityComparer`1<System.Collections.Generic.HashSet`1<T>> System.Collections.Generic.HashSet`1::CreateSetComparer()
+// 0x000000CB System.Int32 System.Collections.Generic.HashSet`1::Initialize(System.Int32)
+// 0x000000CC System.Void System.Collections.Generic.HashSet`1::IncreaseCapacity()
+// 0x000000CD System.Void System.Collections.Generic.HashSet`1::SetCapacity(System.Int32)
+// 0x000000CE System.Boolean System.Collections.Generic.HashSet`1::AddIfNotPresent(T)
+// 0x000000CF System.Void System.Collections.Generic.HashSet`1::AddValue(System.Int32,System.Int32,T)
+// 0x000000D0 System.Boolean System.Collections.Generic.HashSet`1::ContainsAllElements(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000D1 System.Boolean System.Collections.Generic.HashSet`1::IsSubsetOfHashSetWithSameEC(System.Collections.Generic.HashSet`1<T>)
+// 0x000000D2 System.Void System.Collections.Generic.HashSet`1::IntersectWithHashSetWithSameEC(System.Collections.Generic.HashSet`1<T>)
+// 0x000000D3 System.Void System.Collections.Generic.HashSet`1::IntersectWithEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000D4 System.Int32 System.Collections.Generic.HashSet`1::InternalIndexOf(T)
+// 0x000000D5 System.Void System.Collections.Generic.HashSet`1::SymmetricExceptWithUniqueHashSet(System.Collections.Generic.HashSet`1<T>)
+// 0x000000D6 System.Void System.Collections.Generic.HashSet`1::SymmetricExceptWithEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000D7 System.Boolean System.Collections.Generic.HashSet`1::AddOrGetLocation(T,System.Int32&)
+// 0x000000D8 System.Collections.Generic.HashSet`1/ElementCount<T> System.Collections.Generic.HashSet`1::CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable`1<T>,System.Boolean)
+// 0x000000D9 System.Boolean System.Collections.Generic.HashSet`1::HashSetEquals(System.Collections.Generic.HashSet`1<T>,System.Collections.Generic.HashSet`1<T>,System.Collections.Generic.IEqualityComparer`1<T>)
+// 0x000000DA System.Boolean System.Collections.Generic.HashSet`1::AreEqualityComparersEqual(System.Collections.Generic.HashSet`1<T>,System.Collections.Generic.HashSet`1<T>)
+// 0x000000DB System.Int32 System.Collections.Generic.HashSet`1::InternalGetHashCode(T)
+// 0x000000DC System.Void System.Collections.Generic.HashSet`1/Enumerator::.ctor(System.Collections.Generic.HashSet`1<T>)
+// 0x000000DD System.Void System.Collections.Generic.HashSet`1/Enumerator::Dispose()
+// 0x000000DE System.Boolean System.Collections.Generic.HashSet`1/Enumerator::MoveNext()
+// 0x000000DF T System.Collections.Generic.HashSet`1/Enumerator::get_Current()
+// 0x000000E0 System.Object System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x000000E1 System.Void System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.Reset()
+// 0x000000E2 System.Void System.Collections.Generic.HashSetEqualityComparer`1::.ctor()
+// 0x000000E3 System.Boolean System.Collections.Generic.HashSetEqualityComparer`1::Equals(System.Collections.Generic.HashSet`1<T>,System.Collections.Generic.HashSet`1<T>)
+// 0x000000E4 System.Int32 System.Collections.Generic.HashSetEqualityComparer`1::GetHashCode(System.Collections.Generic.HashSet`1<T>)
+// 0x000000E5 System.Boolean System.Collections.Generic.HashSetEqualityComparer`1::Equals(System.Object)
+// 0x000000E6 System.Int32 System.Collections.Generic.HashSetEqualityComparer`1::GetHashCode()
+// 0x000000E7 System.Void System.Collections.Generic.ICollectionDebugView`1::.ctor(System.Collections.Generic.ICollection`1<T>)
+// 0x000000E8 T[] System.Collections.Generic.ICollectionDebugView`1::get_Items()
+static Il2CppMethodPointer s_methodPointers[232] = 
 {
 	NULL,
 	NULL,
@@ -445,8 +467,30 @@ static Il2CppMethodPointer s_methodPointers[210] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 };
-static const int32_t s_InvokerIndices[210] = 
+static const int32_t s_InvokerIndices[232] = 
 {
 	0,
 	0,
@@ -462,10 +506,10 @@ static const int32_t s_InvokerIndices[210] =
 	0,
 	0,
 	0,
-	11592,
-	12236,
-	12236,
-	12236,
+	11845,
+	12501,
+	12501,
+	12501,
 	0,
 	0,
 	0,
@@ -497,8 +541,8 @@ static const int32_t s_InvokerIndices[210] =
 	0,
 	0,
 	0,
-	11515,
-	11515,
+	11766,
+	11766,
 	0,
 	0,
 	0,
@@ -606,11 +650,33 @@ static const int32_t s_InvokerIndices[210] =
 	0,
 	0,
 	0,
-	2933,
-	3784,
-	6867,
-	5214,
-	11511,
+	2989,
+	3856,
+	7007,
+	5311,
+	11762,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 	0,
 	0,
 	0,
@@ -659,7 +725,7 @@ static const int32_t s_InvokerIndices[210] =
 	0,
 	0,
 };
-static const Il2CppTokenRangePair s_rgctxIndices[61] = 
+static const Il2CppTokenRangePair s_rgctxIndices[62] = 
 {
 	{ 0x0200000B, { 144, 5 } },
 	{ 0x0200000C, { 149, 13 } },
@@ -681,9 +747,10 @@ static const Il2CppTokenRangePair s_rgctxIndices[61] =
 	{ 0x02000020, { 317, 4 } },
 	{ 0x02000021, { 321, 10 } },
 	{ 0x02000022, { 331, 8 } },
-	{ 0x02000024, { 339, 49 } },
-	{ 0x02000027, { 388, 2 } },
-	{ 0x02000028, { 390, 4 } },
+	{ 0x02000024, { 339, 60 } },
+	{ 0x02000027, { 399, 2 } },
+	{ 0x02000028, { 401, 13 } },
+	{ 0x02000029, { 414, 4 } },
 	{ 0x06000013, { 0, 10 } },
 	{ 0x06000014, { 10, 10 } },
 	{ 0x06000015, { 20, 1 } },
@@ -1065,6 +1132,7 @@ extern const uint32_t g_rgctx_IEnumerator_1_get_Current_m1BB68E9CA48B668E739FD9A
 extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_mC93F859DDE3938407D49FF1E5A96CED45C316265;
 extern const uint32_t g_rgctx_EqualityComparer_1_tA96567156D027DA41596C9CA1C5DEAB0CDEE6C60;
 extern const uint32_t g_rgctx_HashSet_1__ctor_m781AB04365DCD9333E443C412DFFE8102DCAA2D0;
+extern const uint32_t g_rgctx_HashSet_1__ctor_mFBE38649C6A211AAACBBF2DF9596A35359632465;
 extern const uint32_t g_rgctx_HashSet_1__ctor_m07CC1E138E0D451EA7ED1AC941AC1245011C2093;
 extern const uint32_t g_rgctx_HashSet_1_tF089CA52CB584DB29B4FF68C4A59B7C5FBD3630A;
 extern const uint32_t g_rgctx_HashSet_1_AreEqualityComparersEqual_m0E95D8BA36E2A85337C69FE839358C53D874D82C;
@@ -1091,6 +1159,7 @@ extern const uint32_t g_rgctx_TU5BU5D_t6BCCEA57BEA1E43097B80E2965A5789452F93BA0;
 extern const uint32_t g_rgctx_IEqualityComparer_1_t66DFFD1D981BA05FF20035307F86BFC3864B2E2B;
 extern const uint32_t g_rgctx_SlotU5BU5D_tCF3C9EE13C54F730A642AD5F260A5A7D2F9F73F7;
 extern const uint32_t g_rgctx_TU5BU5D_t6BCCEA57BEA1E43097B80E2965A5789452F93BA0;
+extern const uint32_t g_rgctx_HashSet_1_InternalIndexOf_m2D447E428750224983163A2C527019856AFDBFBC;
 extern const uint32_t g_rgctx_IEnumerable_1_t08DFCA249A6163529549D46ACA84A83C8CD361EC;
 extern const uint32_t g_rgctx_IEnumerable_1_GetEnumerator_mD059A216A04E59863006CEE9F7C3BD8AA41F1D5C;
 extern const uint32_t g_rgctx_IEnumerator_1_t1BD2EC88A1B4550751DED0BBB53571254F37887A;
@@ -1098,26 +1167,48 @@ extern const uint32_t g_rgctx_IEnumerator_1_get_Current_m149653A74BD91288C695A04
 extern const uint32_t g_rgctx_HashSet_1_Clear_mBCB831BE78A9259AAEFB3051763BAE40121F9D11;
 extern const uint32_t g_rgctx_HashSet_1_IntersectWithHashSetWithSameEC_m44EC438AB13789AE47C1FE321760937D6B93586F;
 extern const uint32_t g_rgctx_HashSet_1_IntersectWithEnumerable_m7A0EB45FE7BD56851D687DBFA37C331E4CE25E77;
+extern const uint32_t g_rgctx_HashSet_1_Remove_mFD3EA80DFC96201A988DBFBD52A4F920AFB5384D;
+extern const uint32_t g_rgctx_HashSet_1_SymmetricExceptWithUniqueHashSet_mD194BE9E68BDFEEAC21CC0AEF0A29B09B0AE16B7;
+extern const uint32_t g_rgctx_HashSet_1_SymmetricExceptWithEnumerable_m8B945926110C56656B148F3F7A52ED0DB7894DE3;
 extern const uint32_t g_rgctx_HashSet_1_get_Count_mF76AC662D895CC68C20E848F79874EAB1A79DA31;
-extern const uint32_t g_rgctx_HashSet_1_ContainsAllElements_mCF6E110D72174582EF10330832B7D5A28D3183F0;
+extern const uint32_t g_rgctx_HashSet_1_IsSubsetOfHashSetWithSameEC_m9E35091BBA5F31F05AAD8A0E2C2EBA07AC600E6A;
 extern const uint32_t g_rgctx_HashSet_1_CheckUniqueAndUnfoundElements_mEA361D87EEB7BAD67D2F3CE429595DEFA932A5DE;
+extern const uint32_t g_rgctx_HashSet_1_ContainsAllElements_mCF6E110D72174582EF10330832B7D5A28D3183F0;
+extern const uint32_t g_rgctx_HashSet_1_Contains_m9FC46B9B95724A3C501B1AB2A623A4DDEE540ED3;
 extern const uint32_t g_rgctx_Predicate_1_t1F12E2E3D79CAB6F034E6063432D655A79E0C690;
 extern const uint32_t g_rgctx_Predicate_1_Invoke_m1E90162EC37F65593DEE945DFC92BA7B4259B3B7;
-extern const uint32_t g_rgctx_HashSet_1_Remove_mFD3EA80DFC96201A988DBFBD52A4F920AFB5384D;
 extern const uint32_t g_rgctx_HashSet_1_SetCapacity_mBAE6B90A5CE1BD75B08B8527763700172A4ADB69;
+extern const uint32_t g_rgctx_HashSetEqualityComparer_1_t39C3908D156873006F9E4FA6B2E80588E88B9C5A;
+extern const uint32_t g_rgctx_HashSetEqualityComparer_1__ctor_m20876C564F65DE419A6F889B6E59C4134AC8111D;
 extern const uint32_t g_rgctx_HashSet_1_IncreaseCapacity_mC430EB8352A6B45A9776BF3373EEE6551FC85ABE;
-extern const uint32_t g_rgctx_HashSet_1_Contains_m9FC46B9B95724A3C501B1AB2A623A4DDEE540ED3;
-extern const uint32_t g_rgctx_HashSet_1_InternalIndexOf_m2D447E428750224983163A2C527019856AFDBFBC;
+extern const uint32_t g_rgctx_HashSet_1_GetEnumerator_m477CCED045EA6DDD1DD1A3EB43BC20397E889D37;
+extern const uint32_t g_rgctx_Enumerator_get_Current_mDAB434264D5F378E41D5E46055A8797685BD2A3B;
+extern const uint32_t g_rgctx_Enumerator_MoveNext_m8945184F458AB61968C5BCB26E20FAD91B6114D1;
+extern const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t45B9839DDB003D337DAD360EE2D7537B7E8F9F2D_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7;
+extern const uint32_t g_rgctx_HashSet_1_AddOrGetLocation_mAE6A7B28983C117BB3D9C8C21448236DF99B922A;
 extern const uint32_t g_rgctx_HashSet_1_get_Comparer_m313EEB5FFD720AD1F35ABB61097076D8ABE48A73;
 extern const uint32_t g_rgctx_T_t1A61667A2FF6D68BB3DAC186281F928B7ED2DB94;
 extern const uint32_t g_rgctx_IEqualityComparer_1_GetHashCode_mB43AB2E622EB30D675693CDC96CA5D836DE43336;
 extern const uint32_t g_rgctx_Enumerator_get_Current_m6F22509C5AEA1EA15942F7F9C9866256CB3EA347;
 extern const uint32_t g_rgctx_T_t6D22409F37413B725563BF484486F55FB7202BB8;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m54DF7CD2466F3A984D633508B17DB27CD1523CD4;
+extern const uint32_t g_rgctx_EqualityComparer_1_t362AEB87B2D2F127CD95022DF1001479BB014F53;
+extern const uint32_t g_rgctx_HashSet_1_HashSetEquals_m2D13B841FAF3E3D352B5498E690E4CFDB051DB73;
+extern const uint32_t g_rgctx_HashSet_1_tAB788B71CDDF675EB10B50081F7104D00B5EB240;
+extern const uint32_t g_rgctx_HashSet_1_tAB788B71CDDF675EB10B50081F7104D00B5EB240;
+extern const uint32_t g_rgctx_HashSet_1_GetEnumerator_m252CD59854AFCF4A001670442DCEB6FC99826AFC;
+extern const uint32_t g_rgctx_Enumerator_get_Current_mCF50ED4155D67E1EEF5FEB5D90F3EFC473FB81C7;
+extern const uint32_t g_rgctx_IEqualityComparer_1_tA42AD924511520C3A7B5A47C299646212BDE79DE;
+extern const uint32_t g_rgctx_IEqualityComparer_1_GetHashCode_m769E839B5EE4F6B7EADC09D7B64F1E8AA4EEB3CF;
+extern const uint32_t g_rgctx_Enumerator_MoveNext_mFDE6111CDCF115A9EEF70187FCBC70003120A8CA;
+extern const uint32_t g_rgctx_Enumerator_t3DC4644EE6DEF74DFFA000EC05FFFC990A699D72;
+extern const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t3DC4644EE6DEF74DFFA000EC05FFFC990A699D72_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7;
+extern const uint32_t g_rgctx_HashSetEqualityComparer_1_t8A5A93E767C60AFF56F33BA298ED68BA917CCE66;
 extern const uint32_t g_rgctx_ICollection_1_tFEFB414626FD111D128FEBCF2B2893D2D1BFA23B;
 extern const uint32_t g_rgctx_ICollection_1_get_Count_m59A49BC41F6F347F1A5161D5C655CC8F14B4465C;
 extern const uint32_t g_rgctx_TU5BU5D_t7141ABD7B24C6F56B55DB7911E6CE85CAACA4FFF;
 extern const uint32_t g_rgctx_ICollection_1_CopyTo_m142EAE547CEB167F8913259B3A9EBEF7718F80AD;
-static const Il2CppRGCTXDefinition s_rgctxValues[394] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[418] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Iterator_1_tAFB7558C92D3848C170203685AA45B10B6035464 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Iterator_1_Where_mB33345A6D2213AB59B7B357292542E752C9AEEF2 },
@@ -1461,6 +1552,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[394] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_mC93F859DDE3938407D49FF1E5A96CED45C316265 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tA96567156D027DA41596C9CA1C5DEAB0CDEE6C60 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1__ctor_m781AB04365DCD9333E443C412DFFE8102DCAA2D0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1__ctor_mFBE38649C6A211AAACBBF2DF9596A35359632465 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1__ctor_m07CC1E138E0D451EA7ED1AC941AC1245011C2093 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HashSet_1_tF089CA52CB584DB29B4FF68C4A59B7C5FBD3630A },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_AreEqualityComparersEqual_m0E95D8BA36E2A85337C69FE839358C53D874D82C },
@@ -1487,6 +1579,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[394] =
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_IEqualityComparer_1_t66DFFD1D981BA05FF20035307F86BFC3864B2E2B },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SlotU5BU5D_tCF3C9EE13C54F730A642AD5F260A5A7D2F9F73F7 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t6BCCEA57BEA1E43097B80E2965A5789452F93BA0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_InternalIndexOf_m2D447E428750224983163A2C527019856AFDBFBC },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerable_1_t08DFCA249A6163529549D46ACA84A83C8CD361EC },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerable_1_GetEnumerator_mD059A216A04E59863006CEE9F7C3BD8AA41F1D5C },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerator_1_t1BD2EC88A1B4550751DED0BBB53571254F37887A },
@@ -1494,21 +1587,43 @@ static const Il2CppRGCTXDefinition s_rgctxValues[394] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_Clear_mBCB831BE78A9259AAEFB3051763BAE40121F9D11 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_IntersectWithHashSetWithSameEC_m44EC438AB13789AE47C1FE321760937D6B93586F },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_IntersectWithEnumerable_m7A0EB45FE7BD56851D687DBFA37C331E4CE25E77 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_Remove_mFD3EA80DFC96201A988DBFBD52A4F920AFB5384D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_SymmetricExceptWithUniqueHashSet_mD194BE9E68BDFEEAC21CC0AEF0A29B09B0AE16B7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_SymmetricExceptWithEnumerable_m8B945926110C56656B148F3F7A52ED0DB7894DE3 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_get_Count_mF76AC662D895CC68C20E848F79874EAB1A79DA31 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_ContainsAllElements_mCF6E110D72174582EF10330832B7D5A28D3183F0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_IsSubsetOfHashSetWithSameEC_m9E35091BBA5F31F05AAD8A0E2C2EBA07AC600E6A },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_CheckUniqueAndUnfoundElements_mEA361D87EEB7BAD67D2F3CE429595DEFA932A5DE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_ContainsAllElements_mCF6E110D72174582EF10330832B7D5A28D3183F0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_Contains_m9FC46B9B95724A3C501B1AB2A623A4DDEE540ED3 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Predicate_1_t1F12E2E3D79CAB6F034E6063432D655A79E0C690 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Predicate_1_Invoke_m1E90162EC37F65593DEE945DFC92BA7B4259B3B7 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_Remove_mFD3EA80DFC96201A988DBFBD52A4F920AFB5384D },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_SetCapacity_mBAE6B90A5CE1BD75B08B8527763700172A4ADB69 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HashSetEqualityComparer_1_t39C3908D156873006F9E4FA6B2E80588E88B9C5A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSetEqualityComparer_1__ctor_m20876C564F65DE419A6F889B6E59C4134AC8111D },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_IncreaseCapacity_mC430EB8352A6B45A9776BF3373EEE6551FC85ABE },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_Contains_m9FC46B9B95724A3C501B1AB2A623A4DDEE540ED3 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_InternalIndexOf_m2D447E428750224983163A2C527019856AFDBFBC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_GetEnumerator_m477CCED045EA6DDD1DD1A3EB43BC20397E889D37 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_mDAB434264D5F378E41D5E46055A8797685BD2A3B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_MoveNext_m8945184F458AB61968C5BCB26E20FAD91B6114D1 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_Enumerator_t45B9839DDB003D337DAD360EE2D7537B7E8F9F2D_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_AddOrGetLocation_mAE6A7B28983C117BB3D9C8C21448236DF99B922A },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_get_Comparer_m313EEB5FFD720AD1F35ABB61097076D8ABE48A73 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t1A61667A2FF6D68BB3DAC186281F928B7ED2DB94 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEqualityComparer_1_GetHashCode_mB43AB2E622EB30D675693CDC96CA5D836DE43336 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_m6F22509C5AEA1EA15942F7F9C9866256CB3EA347 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t6D22409F37413B725563BF484486F55FB7202BB8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m54DF7CD2466F3A984D633508B17DB27CD1523CD4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t362AEB87B2D2F127CD95022DF1001479BB014F53 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_HashSetEquals_m2D13B841FAF3E3D352B5498E690E4CFDB051DB73 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HashSet_1_tAB788B71CDDF675EB10B50081F7104D00B5EB240 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HashSet_1_tAB788B71CDDF675EB10B50081F7104D00B5EB240 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_HashSet_1_GetEnumerator_m252CD59854AFCF4A001670442DCEB6FC99826AFC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_mCF50ED4155D67E1EEF5FEB5D90F3EFC473FB81C7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEqualityComparer_1_tA42AD924511520C3A7B5A47C299646212BDE79DE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEqualityComparer_1_GetHashCode_m769E839B5EE4F6B7EADC09D7B64F1E8AA4EEB3CF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_MoveNext_mFDE6111CDCF115A9EEF70187FCBC70003120A8CA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_t3DC4644EE6DEF74DFFA000EC05FFFC990A699D72 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_Enumerator_t3DC4644EE6DEF74DFFA000EC05FFFC990A699D72_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_HashSetEqualityComparer_1_t8A5A93E767C60AFF56F33BA298ED68BA917CCE66 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ICollection_1_tFEFB414626FD111D128FEBCF2B2893D2D1BFA23B },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ICollection_1_get_Count_m59A49BC41F6F347F1A5161D5C655CC8F14B4465C },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t7141ABD7B24C6F56B55DB7911E6CE85CAACA4FFF },
@@ -1519,16 +1634,16 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Core_CodeGenModule;
 const Il2CppCodeGenModule g_System_Core_CodeGenModule = 
 {
 	"System.Core.dll",
-	210,
+	232,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
-	61,
+	62,
 	s_rgctxIndices,
-	394,
+	418,
 	s_rgctxValues,
 	&g_DebuggerMetadataRegistrationSystem_Core,
 	NULL, // module initializer,

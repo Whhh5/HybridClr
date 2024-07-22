@@ -6,7 +6,10 @@ namespace hybridclr
 	{
 		//!!!{{PLACE_HOLDER
 		"HotUpdateAssembly",
+		"TestAssembly",
 		"TestDll",
+		"PlaceHolderDll1",
+		"PlaceHolderDll2",
 
 		//!!!}}PLACE_HOLDER
 		nullptr,

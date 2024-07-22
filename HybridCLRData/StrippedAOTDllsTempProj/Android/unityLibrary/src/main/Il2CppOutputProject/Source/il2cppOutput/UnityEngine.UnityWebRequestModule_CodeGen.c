@@ -124,91 +124,85 @@ extern void UnityWebRequest_get_downloadedBytes_m73E3EC726E417FC7F983FFEF9566CF3
 extern void UnityWebRequest_SetRedirectLimitFromScripting_mD49C47CA7CB7B3936B7806201F30AD13D50939C3 (void);
 // 0x00000038 System.Void UnityEngine.Networking.UnityWebRequest::set_redirectLimit(System.Int32)
 extern void UnityWebRequest_set_redirectLimit_m595CF14137D16BE4385E802869A28AA9B8460928 (void);
-// 0x00000039 System.String UnityEngine.Networking.UnityWebRequest::GetResponseHeader(System.String)
-extern void UnityWebRequest_GetResponseHeader_m9AC0E1BB43CE0469BC7FE865B3D9B2C4198DDF03 (void);
-// 0x0000003A System.String[] UnityEngine.Networking.UnityWebRequest::GetResponseHeaderKeys()
-extern void UnityWebRequest_GetResponseHeaderKeys_m8D84A71B799B61C6F53CA1C49CCA67691E31954C (void);
-// 0x0000003B System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.Networking.UnityWebRequest::GetResponseHeaders()
-extern void UnityWebRequest_GetResponseHeaders_m67147A5D3FF83FD75071AA42F4890439DA2092DF (void);
-// 0x0000003C UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetUploadHandler(UnityEngine.Networking.UploadHandler)
+// 0x00000039 UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetUploadHandler(UnityEngine.Networking.UploadHandler)
 extern void UnityWebRequest_SetUploadHandler_mB8586D5337FA8C93E791F509235E918CFBD33973 (void);
-// 0x0000003D UnityEngine.Networking.UploadHandler UnityEngine.Networking.UnityWebRequest::get_uploadHandler()
+// 0x0000003A UnityEngine.Networking.UploadHandler UnityEngine.Networking.UnityWebRequest::get_uploadHandler()
 extern void UnityWebRequest_get_uploadHandler_mF92ED2E0410E7F720B8775B467CFD86B60909CF5 (void);
-// 0x0000003E System.Void UnityEngine.Networking.UnityWebRequest::set_uploadHandler(UnityEngine.Networking.UploadHandler)
+// 0x0000003B System.Void UnityEngine.Networking.UnityWebRequest::set_uploadHandler(UnityEngine.Networking.UploadHandler)
 extern void UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE (void);
-// 0x0000003F UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetDownloadHandler(UnityEngine.Networking.DownloadHandler)
+// 0x0000003C UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetDownloadHandler(UnityEngine.Networking.DownloadHandler)
 extern void UnityWebRequest_SetDownloadHandler_m3EE61901234B0A0C86424E7A00B860807C73A515 (void);
-// 0x00000040 UnityEngine.Networking.DownloadHandler UnityEngine.Networking.UnityWebRequest::get_downloadHandler()
+// 0x0000003D UnityEngine.Networking.DownloadHandler UnityEngine.Networking.UnityWebRequest::get_downloadHandler()
 extern void UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5 (void);
-// 0x00000041 System.Void UnityEngine.Networking.UnityWebRequest::set_downloadHandler(UnityEngine.Networking.DownloadHandler)
+// 0x0000003E System.Void UnityEngine.Networking.UnityWebRequest::set_downloadHandler(UnityEngine.Networking.DownloadHandler)
 extern void UnityWebRequest_set_downloadHandler_m6CB94492012097DFC44E5773D1A627753788292F (void);
-// 0x00000042 UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetCertificateHandler(UnityEngine.Networking.CertificateHandler)
+// 0x0000003F UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetCertificateHandler(UnityEngine.Networking.CertificateHandler)
 extern void UnityWebRequest_SetCertificateHandler_mF82A00BFC58964A51872A02796A426079784B811 (void);
-// 0x00000043 UnityEngine.Networking.CertificateHandler UnityEngine.Networking.UnityWebRequest::get_certificateHandler()
+// 0x00000040 UnityEngine.Networking.CertificateHandler UnityEngine.Networking.UnityWebRequest::get_certificateHandler()
 extern void UnityWebRequest_get_certificateHandler_m928A7BE34EB3725EA1D977877B7362E813918D7D (void);
-// 0x00000044 System.Void UnityEngine.Networking.UnityWebRequest::set_certificateHandler(UnityEngine.Networking.CertificateHandler)
+// 0x00000041 System.Void UnityEngine.Networking.UnityWebRequest::set_certificateHandler(UnityEngine.Networking.CertificateHandler)
 extern void UnityWebRequest_set_certificateHandler_m4B4FA1E2F5FD0394D079CB711EB612F6A62458E2 (void);
-// 0x00000045 UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetTimeoutMsec(System.Int32)
+// 0x00000042 UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetTimeoutMsec(System.Int32)
 extern void UnityWebRequest_SetTimeoutMsec_m0EF143E4E02677284CD9A42018B44DF038AABA7F (void);
-// 0x00000046 System.Void UnityEngine.Networking.UnityWebRequest::set_timeout(System.Int32)
+// 0x00000043 System.Void UnityEngine.Networking.UnityWebRequest::set_timeout(System.Int32)
 extern void UnityWebRequest_set_timeout_mE9C8169FA8CF1BE17E3D9FDACDC6E1A9508DF618 (void);
-// 0x00000047 System.Void UnityEngine.Networking.DownloadHandler::Release()
+// 0x00000044 System.Void UnityEngine.Networking.DownloadHandler::Release()
 extern void DownloadHandler_Release_mE143BC893E5F52645B5CC99A1141F9EA830E0927 (void);
-// 0x00000048 System.Void UnityEngine.Networking.DownloadHandler::.ctor()
+// 0x00000045 System.Void UnityEngine.Networking.DownloadHandler::.ctor()
 extern void DownloadHandler__ctor_m833275AC5FCAC0BFB4F2D5C1C0C7FD76416CE496 (void);
-// 0x00000049 System.Void UnityEngine.Networking.DownloadHandler::Finalize()
+// 0x00000046 System.Void UnityEngine.Networking.DownloadHandler::Finalize()
 extern void DownloadHandler_Finalize_m21F7E76D39E0CBF30890C6A0C8EDBF049AFFBB14 (void);
-// 0x0000004A System.Void UnityEngine.Networking.DownloadHandler::Dispose()
+// 0x00000047 System.Void UnityEngine.Networking.DownloadHandler::Dispose()
 extern void DownloadHandler_Dispose_mD5D4CCF0C2DFF1CB57C9B3A0EF4213ECB9F8F607 (void);
-// 0x0000004B System.String UnityEngine.Networking.DownloadHandler::get_error()
+// 0x00000048 System.String UnityEngine.Networking.DownloadHandler::get_error()
 extern void DownloadHandler_get_error_mE1A0FFCC1F3CC14567E6A9565C6EF08CDC04583E (void);
-// 0x0000004C System.String UnityEngine.Networking.DownloadHandler::GetErrorMsg()
+// 0x00000049 System.String UnityEngine.Networking.DownloadHandler::GetErrorMsg()
 extern void DownloadHandler_GetErrorMsg_mF9888EA3B3B9C7BC4D7101E55698A4AC21ADC873 (void);
-// 0x0000004D System.String UnityEngine.Networking.DownloadHandler::get_text()
+// 0x0000004A System.String UnityEngine.Networking.DownloadHandler::get_text()
 extern void DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8 (void);
-// 0x0000004E Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.DownloadHandler::GetNativeData()
+// 0x0000004B Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.DownloadHandler::GetNativeData()
 extern void DownloadHandler_GetNativeData_m884DE3A326286BFE7B26098CD55D6DCD7D146E23 (void);
-// 0x0000004F System.String UnityEngine.Networking.DownloadHandler::GetText()
+// 0x0000004C System.String UnityEngine.Networking.DownloadHandler::GetText()
 extern void DownloadHandler_GetText_m19ABD4540E4BE6A4D4340933E01D5DE687020E85 (void);
-// 0x00000050 System.Text.Encoding UnityEngine.Networking.DownloadHandler::GetTextEncoder()
+// 0x0000004D System.Text.Encoding UnityEngine.Networking.DownloadHandler::GetTextEncoder()
 extern void DownloadHandler_GetTextEncoder_m1D26E8E7DE1CC2FA00EF56F1741B1DDAE4885BF5 (void);
-// 0x00000051 System.String UnityEngine.Networking.DownloadHandler::GetContentType()
+// 0x0000004E System.String UnityEngine.Networking.DownloadHandler::GetContentType()
 extern void DownloadHandler_GetContentType_m678AE10691E33BEE69FFFDB02CACA8AD8AAADDDC (void);
-// 0x00000052 System.Void UnityEngine.Networking.DownloadHandler::ReceiveContentLengthHeader(System.UInt64)
+// 0x0000004F System.Void UnityEngine.Networking.DownloadHandler::ReceiveContentLengthHeader(System.UInt64)
 extern void DownloadHandler_ReceiveContentLengthHeader_m545073C4FB5AB9BB6640D24FC2F32070E5FE3F17 (void);
-// 0x00000053 System.Void UnityEngine.Networking.DownloadHandler::ReceiveContentLength(System.Int32)
+// 0x00000050 System.Void UnityEngine.Networking.DownloadHandler::ReceiveContentLength(System.Int32)
 extern void DownloadHandler_ReceiveContentLength_m058DE0B56C3EBE8ECE3F9570852024EE2A84DE4F (void);
-// 0x00000054 System.Byte* UnityEngine.Networking.DownloadHandler::InternalGetByteArray(UnityEngine.Networking.DownloadHandler,System.Int32&)
+// 0x00000051 System.Byte* UnityEngine.Networking.DownloadHandler::InternalGetByteArray(UnityEngine.Networking.DownloadHandler,System.Int32&)
 extern void DownloadHandler_InternalGetByteArray_m17F536D05E82827A3DB9883C89F3D40102AA0302 (void);
-// 0x00000055 Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.DownloadHandler::InternalGetNativeArray(UnityEngine.Networking.DownloadHandler,Unity.Collections.NativeArray`1<System.Byte>&)
+// 0x00000052 Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.DownloadHandler::InternalGetNativeArray(UnityEngine.Networking.DownloadHandler,Unity.Collections.NativeArray`1<System.Byte>&)
 extern void DownloadHandler_InternalGetNativeArray_mE622083BC3893B43BC8E7C467A1895664C3B6B89 (void);
-// 0x00000056 System.Void UnityEngine.Networking.DownloadHandler::DisposeNativeArray(Unity.Collections.NativeArray`1<System.Byte>&)
+// 0x00000053 System.Void UnityEngine.Networking.DownloadHandler::DisposeNativeArray(Unity.Collections.NativeArray`1<System.Byte>&)
 extern void DownloadHandler_DisposeNativeArray_m96514980A0A48921D17C059CAC2CC0CDA27B2398 (void);
-// 0x00000057 System.Void UnityEngine.Networking.DownloadHandler::CreateNativeArrayForNativeData(Unity.Collections.NativeArray`1<System.Byte>&,System.Byte*,System.Int32)
+// 0x00000054 System.Void UnityEngine.Networking.DownloadHandler::CreateNativeArrayForNativeData(Unity.Collections.NativeArray`1<System.Byte>&,System.Byte*,System.Int32)
 extern void DownloadHandler_CreateNativeArrayForNativeData_m99DFC7963AF038C8C56A5AF0CCD1FB5E21A960DE (void);
-// 0x00000058 System.IntPtr UnityEngine.Networking.DownloadHandlerBuffer::Create(UnityEngine.Networking.DownloadHandlerBuffer)
+// 0x00000055 System.IntPtr UnityEngine.Networking.DownloadHandlerBuffer::Create(UnityEngine.Networking.DownloadHandlerBuffer)
 extern void DownloadHandlerBuffer_Create_m0CBF0B675220608B4817AEB83B9BEB92DE68B985 (void);
-// 0x00000059 System.Void UnityEngine.Networking.DownloadHandlerBuffer::InternalCreateBuffer()
+// 0x00000056 System.Void UnityEngine.Networking.DownloadHandlerBuffer::InternalCreateBuffer()
 extern void DownloadHandlerBuffer_InternalCreateBuffer_mB2AD693185110CBED1FDA8748627DFC51E40A053 (void);
-// 0x0000005A System.Void UnityEngine.Networking.DownloadHandlerBuffer::.ctor()
+// 0x00000057 System.Void UnityEngine.Networking.DownloadHandlerBuffer::.ctor()
 extern void DownloadHandlerBuffer__ctor_m5EE7C9E8AB468B2B937A7C9C66B4176A884147AF (void);
-// 0x0000005B Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.DownloadHandlerBuffer::GetNativeData()
+// 0x00000058 Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.DownloadHandlerBuffer::GetNativeData()
 extern void DownloadHandlerBuffer_GetNativeData_m0CA5C7DDC84622499CFED57069526BCDD240C28F (void);
-// 0x0000005C System.Void UnityEngine.Networking.DownloadHandlerBuffer::Dispose()
+// 0x00000059 System.Void UnityEngine.Networking.DownloadHandlerBuffer::Dispose()
 extern void DownloadHandlerBuffer_Dispose_m5B47B0183194D920B76BDC9001C3FE81A73D9D39 (void);
-// 0x0000005D System.Void UnityEngine.Networking.UploadHandler::Release()
+// 0x0000005A System.Void UnityEngine.Networking.UploadHandler::Release()
 extern void UploadHandler_Release_mBCD6EDAAC00B5051FDDE2D9E3395419C2906224B (void);
-// 0x0000005E System.Void UnityEngine.Networking.UploadHandler::Dispose()
+// 0x0000005B System.Void UnityEngine.Networking.UploadHandler::Dispose()
 extern void UploadHandler_Dispose_mA92AC689361199836EEABE182E13F9759A74D109 (void);
-// 0x0000005F System.Void UnityEngine.Networking.CertificateHandler::Release()
+// 0x0000005C System.Void UnityEngine.Networking.CertificateHandler::Release()
 extern void CertificateHandler_Release_m53BEBE2D49365A90BABE06C0B357FFDD71D51D54 (void);
-// 0x00000060 System.Boolean UnityEngine.Networking.CertificateHandler::ValidateCertificate(System.Byte[])
+// 0x0000005D System.Boolean UnityEngine.Networking.CertificateHandler::ValidateCertificate(System.Byte[])
 extern void CertificateHandler_ValidateCertificate_m81E194684391CA512FFC7C3A9172B56D6A1E2752 (void);
-// 0x00000061 System.Boolean UnityEngine.Networking.CertificateHandler::ValidateCertificateNative(System.Byte[])
+// 0x0000005E System.Boolean UnityEngine.Networking.CertificateHandler::ValidateCertificateNative(System.Byte[])
 extern void CertificateHandler_ValidateCertificateNative_m73467B32D9B40F6897951F71F80CDDA92F5FD785 (void);
-// 0x00000062 System.Void UnityEngine.Networking.CertificateHandler::Dispose()
+// 0x0000005F System.Void UnityEngine.Networking.CertificateHandler::Dispose()
 extern void CertificateHandler_Dispose_mA33A9B76B93B8DF2FEB665A0AFB1C1E6933CFC43 (void);
-static Il2CppMethodPointer s_methodPointers[98] = 
+static Il2CppMethodPointer s_methodPointers[95] = 
 {
 	WebRequestUtils_RedirectTo_m63855E63B6B6EAFD4BCE65395BB744AAF5BD6AB4,
 	WebRequestUtils_MakeInitialUrl_m30A37413A904FEB4E4E45607E929B4E90ECE044C,
@@ -266,9 +260,6 @@ static Il2CppMethodPointer s_methodPointers[98] =
 	UnityWebRequest_get_downloadedBytes_m73E3EC726E417FC7F983FFEF9566CF380F322610,
 	UnityWebRequest_SetRedirectLimitFromScripting_mD49C47CA7CB7B3936B7806201F30AD13D50939C3,
 	UnityWebRequest_set_redirectLimit_m595CF14137D16BE4385E802869A28AA9B8460928,
-	UnityWebRequest_GetResponseHeader_m9AC0E1BB43CE0469BC7FE865B3D9B2C4198DDF03,
-	UnityWebRequest_GetResponseHeaderKeys_m8D84A71B799B61C6F53CA1C49CCA67691E31954C,
-	UnityWebRequest_GetResponseHeaders_m67147A5D3FF83FD75071AA42F4890439DA2092DF,
 	UnityWebRequest_SetUploadHandler_mB8586D5337FA8C93E791F509235E918CFBD33973,
 	UnityWebRequest_get_uploadHandler_mF92ED2E0410E7F720B8775B467CFD86B60909CF5,
 	UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE,
@@ -309,113 +300,110 @@ static Il2CppMethodPointer s_methodPointers[98] =
 	CertificateHandler_ValidateCertificateNative_m73467B32D9B40F6897951F71F80CDDA92F5FD785,
 	CertificateHandler_Dispose_mA33A9B76B93B8DF2FEB665A0AFB1C1E6933CFC43,
 };
-static const int32_t s_InvokerIndices[98] = 
+static const int32_t s_InvokerIndices[95] = 
 {
-	10697,
-	10697,
-	9943,
-	11431,
-	12106,
-	12074,
-	12106,
-	10475,
-	11431,
-	9770,
-	9929,
-	12106,
-	8435,
-	6814,
-	8538,
-	11428,
-	11429,
-	8361,
-	6740,
-	8361,
-	6740,
-	8361,
-	6740,
-	12069,
-	8538,
-	8538,
-	8538,
-	1125,
-	8538,
-	8538,
-	8538,
-	8435,
-	8435,
-	8538,
-	5909,
-	6794,
-	5928,
-	6814,
-	8412,
-	8435,
-	8435,
-	6814,
-	8412,
-	8435,
-	8435,
-	6814,
-	8435,
-	5928,
-	6814,
-	8413,
-	8361,
-	8361,
-	8412,
-	8524,
-	6794,
-	6794,
-	6092,
-	8435,
-	8435,
-	5928,
-	8435,
-	6814,
-	5928,
-	8435,
-	6814,
-	5928,
-	8435,
-	6814,
-	5909,
-	6794,
-	8538,
-	8538,
-	8538,
-	8538,
-	8435,
-	8435,
-	8435,
-	7650,
-	8435,
-	8435,
-	8435,
-	6893,
-	6794,
-	10369,
-	10322,
-	11888,
-	10122,
-	11386,
-	8538,
-	8538,
-	7650,
-	8538,
-	8538,
-	8538,
-	8538,
-	5188,
-	5188,
-	8538,
+	8908,
+	8908,
+	8311,
+	9489,
+	9983,
+	9950,
+	9983,
+	8722,
+	9489,
+	8159,
+	8297,
+	9983,
+	6974,
+	5648,
+	7078,
+	9486,
+	9487,
+	6900,
+	5577,
+	6900,
+	5577,
+	6900,
+	5577,
+	9945,
+	7078,
+	7078,
+	7078,
+	953,
+	7078,
+	7078,
+	7078,
+	6974,
+	6974,
+	7078,
+	4861,
+	5628,
+	4880,
+	5648,
+	6950,
+	6974,
+	6974,
+	5648,
+	6950,
+	6974,
+	6974,
+	5648,
+	6974,
+	4880,
+	5648,
+	6951,
+	6900,
+	6900,
+	6950,
+	7064,
+	5628,
+	5628,
+	4880,
+	6974,
+	5648,
+	4880,
+	6974,
+	5648,
+	4880,
+	6974,
+	5648,
+	4861,
+	5628,
+	7078,
+	7078,
+	7078,
+	7078,
+	6974,
+	6974,
+	6974,
+	6389,
+	6974,
+	6974,
+	6974,
+	5729,
+	5628,
+	8631,
+	8617,
+	9841,
+	8476,
+	9449,
+	7078,
+	7078,
+	6389,
+	7078,
+	7078,
+	7078,
+	7078,
+	4262,
+	4262,
+	7078,
 };
 extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_UnityWebRequestModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_CodeGenModule = 
 {
 	"UnityEngine.UnityWebRequestModule.dll",
-	98,
+	95,
 	s_methodPointers,
 	0,
 	NULL,

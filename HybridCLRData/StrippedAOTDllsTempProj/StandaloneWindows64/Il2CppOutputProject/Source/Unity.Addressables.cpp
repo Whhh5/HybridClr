@@ -40129,7 +40129,7 @@ IL_003a_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5303));
 			NullCheck(L_11);
 			String_t* L_15;
-			L_15 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_11, L_12, ((int32_t)il2cpp_codegen_add(L_13, 4)), L_14);
+			L_15 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_11, L_12, ((int32_t)il2cpp_codegen_add(L_13, 4)), L_14);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5303));
 			V_4 = L_15;
 			goto IL_018d;
@@ -40160,7 +40160,7 @@ IL_0059_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5309));
 			NullCheck(L_19);
 			String_t* L_23;
-			L_23 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_19, L_20, ((int32_t)il2cpp_codegen_add(L_21, 4)), L_22);
+			L_23 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_19, L_20, ((int32_t)il2cpp_codegen_add(L_21, 4)), L_22);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5309));
 			V_4 = L_23;
 			goto IL_018d;
@@ -40235,7 +40235,7 @@ IL_00b3_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5318));
 			NullCheck(L_39);
 			String_t* L_46;
-			L_46 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_39, L_40, ((int32_t)il2cpp_codegen_add(L_41, 1)), L_45);
+			L_46 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_39, L_40, ((int32_t)il2cpp_codegen_add(L_41, 1)), L_45);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5318));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5319));
 			Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_47;
@@ -40265,7 +40265,7 @@ IL_00d5_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5322));
 			NullCheck(L_50);
 			String_t* L_57;
-			L_57 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_50, L_51, ((int32_t)il2cpp_codegen_add(L_52, 1)), L_56);
+			L_57 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_50, L_51, ((int32_t)il2cpp_codegen_add(L_52, 1)), L_56);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5322));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5323));
 			Guid_t L_58;
@@ -40308,7 +40308,7 @@ IL_00f7_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5330));
 			NullCheck(L_65);
 			String_t* L_69;
-			L_69 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_65, L_66, L_67, L_68);
+			L_69 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_65, L_66, L_67, L_68);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5330));
 			V_7 = L_69;
 			// dataIndex += assemblyNameLength;
@@ -40340,7 +40340,7 @@ IL_00f7_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5336));
 			NullCheck(L_77);
 			String_t* L_81;
-			L_81 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_77, L_78, L_79, L_80);
+			L_81 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_77, L_78, L_79, L_80);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5336));
 			V_9 = L_81;
 			// dataIndex += classNameLength;
@@ -40374,7 +40374,7 @@ IL_00f7_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5343));
 			NullCheck(L_88);
 			String_t* L_92;
-			L_92 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_88, L_89, L_90, L_91);
+			L_92 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_88, L_89, L_90, L_91);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5343));
 			V_11 = L_92;
 			// var assembly = Assembly.Load(assemblyName);
@@ -40392,7 +40392,7 @@ IL_00f7_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5347));
 			NullCheck(L_95);
 			Type_t* L_97;
-			L_97 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(16 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_95, L_96);
+			L_97 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(33 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_95, L_96);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5347));
 			V_13 = L_97;
 			// return JsonUtility.FromJson(jsonText, t);
@@ -40593,7 +40593,7 @@ IL_003c:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5374));
 		NullCheck(L_11);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13;
-		L_13 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_11, L_12);
+		L_13 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_11, L_12);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5374));
 		V_9 = L_13;
 		// byte[] tmp2 = Encoding.ASCII.GetBytes(str);
@@ -40606,7 +40606,7 @@ IL_003c:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5377));
 		NullCheck(L_14);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16;
-		L_16 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_14, L_15);
+		L_16 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_14, L_15);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5377));
 		V_10 = L_16;
 		// if (Encoding.Unicode.GetString(tmp) == Encoding.ASCII.GetString(tmp2))
@@ -40619,7 +40619,7 @@ IL_003c:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5380));
 		NullCheck(L_17);
 		String_t* L_19;
-		L_19 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(32 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_17, L_18);
+		L_19 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_17, L_18);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5380));
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5381));
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_20;
@@ -40629,7 +40629,7 @@ IL_003c:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5382));
 		NullCheck(L_20);
 		String_t* L_22;
-		L_22 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(32 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_20, L_21);
+		L_22 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_20, L_21);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5382));
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5383));
 		bool L_23;
@@ -40991,7 +40991,7 @@ IL_01e0:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5459));
 		NullCheck(L_89);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_91;
-		L_91 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_89, L_90);
+		L_91 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_89, L_90);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5459));
 		V_24 = L_91;
 		// buffer.Add((byte)ObjectType.Hash128);
@@ -41164,12 +41164,12 @@ IL_02b9:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5495));
 		NullCheck(L_122);
 		String_t* L_123;
-		L_123 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.Assembly::get_FullName() */, L_122);
+		L_123 = VirtualFuncInvoker0< String_t* >::Invoke(12 /* System.String System.Reflection.Assembly::get_FullName() */, L_122);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5495));
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5496));
 		NullCheck(L_120);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_124;
-		L_124 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_120, L_123);
+		L_124 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_120, L_123);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5496));
 		V_3 = L_124;
 		// buffer.Add((byte)tmpAssemblyName.Length);
@@ -41238,7 +41238,7 @@ IL_0314:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5510));
 		NullCheck(L_137);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_139;
-		L_139 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_137, L_138);
+		L_139 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_137, L_138);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5510));
 		V_5 = L_139;
 		// buffer.Add((byte)tmpClassName.Length);
@@ -41282,7 +41282,7 @@ IL_0314:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5520));
 		NullCheck(L_147);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_150;
-		L_150 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_147, L_149);
+		L_150 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_147, L_149);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Addressables + 5520));
 		V_6 = L_150;
 		// buffer.AddRange(BitConverter.GetBytes(tmpJson.Length));

@@ -4,11 +4,10 @@
   </assembly>
   <assembly fullname="HotUpdateAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="ConsoleToScreen" preserve="all" />
+    <type fullname="CoreManager" preserve="all" />
     <type fullname="LoadDll" preserve="all" />
-    <type fullname="TestPlugins.Map" preserve="all" />
-  </assembly>
-  <assembly fullname="TestDll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="TestDll.UIMonobehaviour" preserve="all" />
+    <type fullname="MapCore.Map" preserve="all" />
+    <type fullname="UGUIManager" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -41,6 +40,7 @@
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />

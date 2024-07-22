@@ -24,12 +24,15 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_DOTweenPro_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_DOTween_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_HybridCLR_Runtime_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_LitJsonAssembly_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Core_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_TestAOTAssembly_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_TestHotAssembly_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_TestNoHotAssembly_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UniTask_Addressables_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UniTask_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UniTask_DOTween_CodeGenModule;
@@ -78,7 +81,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshPro_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[59] = 
+const Il2CppCodeGenModule* g_CodeGenModules[62] = 
 {
 	(&g_AOTAssembly_CodeGenModule),
 	(&g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule),
@@ -86,12 +89,15 @@ const Il2CppCodeGenModule* g_CodeGenModules[59] =
 	(&g_DOTweenPro_CodeGenModule),
 	(&g_DOTween_CodeGenModule),
 	(&g_HybridCLR_Runtime_CodeGenModule),
+	(&g_LitJsonAssembly_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Configuration_CodeGenModule),
 	(&g_System_Core_CodeGenModule),
 	(&g_System_Xml_CodeGenModule),
 	(&g_TestAOTAssembly_CodeGenModule),
+	(&g_TestHotAssembly_CodeGenModule),
+	(&g_TestNoHotAssembly_CodeGenModule),
 	(&g_UniTask_Addressables_CodeGenModule),
 	(&g_UniTask_CodeGenModule),
 	(&g_UniTask_DOTween_CodeGenModule),
@@ -145,18 +151,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	3,
 	g_ReversePInvokeWrapperPointers,
-	65082,
+	66677,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	12277,
+	12545,
 	g_Il2CppInvokerPointers,
-	2281,
+	2316,
 	g_UnresolvedVirtualMethodPointers,
-	412,
+	419,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	59,
+	62,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

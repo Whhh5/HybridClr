@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 95789eb862e8ec744b8f208fecd32c4a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: '{"$type":"System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object,
+    mscorlib]], mscorlib","MATERIL_INFO_FLAG":"{\"MaterialGUID\":\"95789eb862e8ec744b8f208fecd32c4a\",\"ShaderName\":\"UI/Default\"}"}'
+  assetBundleName: cres/font/expfont/exp.mat
+  assetBundleVariant: 

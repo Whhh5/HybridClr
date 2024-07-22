@@ -233,6 +233,10 @@ struct StateTuple_3_t1F327F6C6DD128ACDB332716D69C70F9388952E8;
 struct StateTuple_3_t16D46995F38446271FEFF52012628859D1541A8D;
 // System.Threading.Tasks.TaskCompletionSource`1<System.Object>
 struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37;
+// System.Threading.Tasks.TaskFactory`1<System.Object>
+struct TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B;
+// System.Threading.Tasks.TaskFactory`1<Cysharp.Threading.Tasks.UniTask>
+struct TaskFactory_1_tB42B3FA34F7568E93A0A580849684BCC578572E9;
 // System.Threading.Tasks.Task`1<System.Object>
 struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
 // System.Threading.Tasks.Task`1<Cysharp.Threading.Tasks.UniTask>
@@ -2893,6 +2897,12 @@ struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2  : public Task_t751C4CC3
 	RuntimeObject* ___m_result_22;
 };
 
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B* ___s_defaultFactory_23;
+};
+
 // Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<System.Boolean>
 struct UniTaskCompletionSourceCore_1_t9AED094DEF9EF1E050603D158F4FFA169DE3E9D2 
 {
@@ -3963,6 +3973,12 @@ struct Task_1_t1054EC02D21899A7835475D37A8AA97158F17E6F  : public Task_t751C4CC3
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
 	UniTask_t8E1453C1D8424B1FC22B0E51B017D3B028E17270 ___m_result_22;
+};
+
+struct Task_1_t1054EC02D21899A7835475D37A8AA97158F17E6F_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tB42B3FA34F7568E93A0A580849684BCC578572E9* ___s_defaultFactory_23;
 };
 
 // Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<Cysharp.Threading.Tasks.AsyncUnit>
@@ -13170,7 +13186,7 @@ IL_0018:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 2121));
 		NullCheck(L_3);
 		RuntimeObject* L_5;
-		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(22 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(38 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_3, L_4);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 2121));
 		__this->___U3CsecondU3E5__1_3 = ((*(float*)((float*)(float*)UnBox(L_5, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		// var elapsed = 0.0f;

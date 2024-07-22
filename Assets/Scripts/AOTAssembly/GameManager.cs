@@ -1,4 +1,5 @@
-using HybridCLR;
+ï»¿using HybridCLR;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
@@ -6,7 +7,15 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.SceneManagement;
 
+public enum EAddressableLable
+{
+    AOTGenericSharing,
+    HotUpdateAssembly,
+    LevelSetting,
+    EquipConfig,
+}
 public class GameManager
 {
     private static IReadOnlyList<string> m_PatchedAOTAssemblyList = new List<string>
@@ -21,37 +30,44 @@ public class GameManager
                 "Assets/Resources_moved/AOTGenericSharing/mscorlib.dll.bytes",
                 "Assets/Resources_moved/AOTGenericSharing/UnityEngine.AnimationModule.dll.bytes",
             };
-    [RuntimeInitializeOnLoadMethod]
+    //[RuntimeInitializeOnLoadMethod]
     private static async void GameStart()
     {
+        var curScene = SceneManager.GetActiveScene();
+        var newScene = SceneManager.CreateScene("Game");
+        SceneManager.UnloadSceneAsync(curScene.buildIndex);
+
+
         Debug.Log($" ------------------- GameStart ---------------------");
 
-        // µÈ´ı¼ÓÔØ×ÊÔ´
+        // ç­‰å¾…åŠ è½½èµ„æº
         await UpdateResourceAssync();
-        // µÈ´ıÈÈ¸ü³ÌĞò¼¯
+        // ç­‰å¾…çƒ­æ›´ç¨‹åºé›†
 #if UNITY_EDITOR || true
         await HotUpdateAssemblyAsync();
 #endif
-        // ²¹³äÔªÊı¾İ
+        // è¡¥å……å…ƒæ•°æ®
         await AddGenericSharing();
 
-        // ¼ÓÔØ¿ªÊ¼ÓÎÏ·
+        // åŠ è½½å¼€å§‹æ¸¸æˆ
         var handle = Addressables.LoadAssetAsync<GameObject>("Assets/Resources_moved/Modules/CoreManager.prefab");
         await handle.Task;
         /*var target = */
         GameObject.Instantiate(handle.Result);
-        //Debug.Log($" ------------- Game Initialization End -------------");
+        Debug.Log($" ------------- Game Initialization End -------------");
+
+
     }
     private static async Task UpdateResourceAssync()
     {
-        Debug.Log($" ------------------- ¼ì²é¸üĞÂ");
+        Debug.Log($" ------------------- æ£€æŸ¥æ›´æ–°");
         var handle = Addressables.CheckForCatalogUpdates(true);
         var list = await handle.Task;
-        // »ñÈ¡ÒÑ¾­¸üĞÂµÄ×ÊÔ´£¬²¢½øĞĞÏÂÔØ
+        // è·å–å·²ç»æ›´æ–°çš„èµ„æºï¼Œå¹¶è¿›è¡Œä¸‹è½½
         //var locators = Addressables.ResourceLocators;
         if (list != null && list.Count > 0)
         {
-            var logStr = $"¼ì²é¸üĞÂ count = {list.Count}";
+            var logStr = $"æ£€æŸ¥æ›´æ–° count = {list.Count}";
             foreach (var item in list)
             {
                 logStr += $"\n{item}";
@@ -70,40 +86,55 @@ public class GameManager
         }
         else
         {
-            Debug.Log($"¼ì²é¸üĞÂ Ã»ÓĞ¿É¸üĞÂÏî");
+            Debug.Log($"æ£€æŸ¥æ›´æ–° æ²¡æœ‰å¯æ›´æ–°é¡¹");
         }
-        Debug.Log($" ------------------- ¸üĞÂÍê³É");
+        Debug.Log($" ------------------- æ›´æ–°å®Œæˆ");
     }
     private static async Task HotUpdateAssemblyAsync()
     {
-        Debug.Log($" ------------------- ¿ªÊ¼ÈÈ¸ü³ÌĞò¼¯ ");
+        Debug.Log($" ------------------- å¼€å§‹çƒ­æ›´ç¨‹åºé›† ");
 #if !UNITY_EDITOR || true
-        var assemblysHandle = Addressables.LoadAssetsAsync<TextAsset>("HotUpdateAssembly", null);
+        var assemblysHandle = Addressables.LoadAssetsAsync<TextAsset>(EAddressableLable.HotUpdateAssembly.ToString(), null);
         await assemblysHandle.Task;
-        //var testObj = new GameObject("Monobehaviour");
 
-        GameObject testObj = new GameObject("Monobehaviour");
+        GameObject testObj = new("Monobehaviour");
+        testObj.SetActive(false);
         foreach (var dll in assemblysHandle.Result)
         {
-            Debug.Log($"load target dll = {dll}");
+            Debug.Log($"load target dll = {dll.name}");
 
             Assembly startAssembly = Assembly.Load(dll.bytes);
 
             var types = startAssembly.GetTypes();
-            foreach (var type in types)
+            for (int j = 0; j < types.Length; j++)
             {
-                if (typeof(MonoBehaviour).IsAssignableFrom(type))
+                var type = types[j];
+                if (!typeof(MonoBehaviour).IsAssignableFrom(type))
                 {
-                    var com = testObj.AddComponent(type) as MonoBehaviour;
-                    Debug.Log($"add test monobehaviour com = {com}");
-                    com.enabled = false;
+                    continue;
                 }
-                Debug.Log(type);
+                if (type.IsAbstract)
+                {
+                    continue;
+                }
+                if (type.IsGenericType)
+                {
+                    continue;
+                }
+                try
+                {
+                    Debug.Log($"load type add test monobehaviour {j} com = {type}");
+                    var com = testObj.AddComponent(type) as MonoBehaviour;
+                }
+                catch (Exception ex)
+                {
+                    Debug.LogError(ex);
+                }
             }
         }
         GameObject.Destroy(testObj);
 #else
-        // EditorÏÂÎŞĞè¼ÓÔØ£¬Ö±½Ó²éÕÒ»ñµÃHotUpdate³ÌĞò¼¯
+        // Editorä¸‹æ— éœ€åŠ è½½ï¼Œç›´æ¥æŸ¥æ‰¾è·å¾—HotUpdateç¨‹åºé›†
         Assembly[] hotUpdateAsss = System.AppDomain.CurrentDomain.GetAssemblies();
         Assembly hotUpdateAss = null;
         var testObj = new GameObject("Monobehaviour");
@@ -125,13 +156,13 @@ public class GameManager
             }
         }
 #endif
-        Debug.Log($" ------------------- ÈÈ¸ü³ÌĞò¼¯½áÊø ");
+        Debug.Log($" ------------------- çƒ­æ›´ç¨‹åºé›†ç»“æŸ ");
     }
     private static async Task AddGenericSharing()
     {
-        Debug.Log(" --------------------- ¿ªÊ¼²¹³äÔªÊı¾İ ");
+        Debug.Log(" --------------------- å¼€å§‹è¡¥å……å…ƒæ•°æ® ");
 
-        var aotGenericSharingBundleHandle = Addressables.LoadAssetsAsync<TextAsset>("AOTGenericSharing", null);
+        var aotGenericSharingBundleHandle = Addressables.LoadAssetsAsync<TextAsset>(EAddressableLable.AOTGenericSharing.ToString(), null);
         var aotGenericSharing = await aotGenericSharingBundleHandle.Task;
         foreach (var dll in aotGenericSharing)
         {
@@ -141,6 +172,6 @@ public class GameManager
             var errorType = RuntimeApi.LoadMetadataForAOTAssembly(dll.bytes, loadMode);
             Debug.Log($"LoadMetadataForAOTAssembly path = {dll.name}, mode = {loadMode}, errorType = {errorType}");
         }
-        Debug.Log(" --------------------- ²¹³äÔªÊı¾İ½áÊø ");
+        Debug.Log(" --------------------- è¡¥å……å…ƒæ•°æ®ç»“æŸ ");
     }
 }

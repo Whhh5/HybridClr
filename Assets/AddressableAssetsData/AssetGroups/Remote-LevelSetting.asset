@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote-LevelSetting
+  m_EditorClassIdentifier: 
+  m_GroupName: Remote-LevelSetting
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9948fd78653228348a51e7b0c8824a91
+  m_SerializeEntries:
+  - m_GUID: 5da6af4e5c4cea44690f5963e38ee314
+    m_Address: Assets/Resources_moved/ScriptObjects/LevelSettings
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LevelSetting
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a4f0adaa2bb6072488dad739ddc04558, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e30845d3cf86d0d4bb6aac09f00e4a52, type: 2}
+    - {fileID: 11400000, guid: fe7159a8f4c98bc4bbd7f1418ebb4347, type: 2}

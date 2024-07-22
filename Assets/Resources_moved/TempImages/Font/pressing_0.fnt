@@ -1,0 +1,19 @@
+info face="汉仪润圆-65W" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=32 base=24 scaleW=430 scaleH=42 pages=2 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="pressing_0.png"
+page id=1 file="pressing_1.png"
+chars count=14
+char id=46   x=404   y=0     width=14    height=40    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=48   x=85    y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=49   x=114   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=50   x=143   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=51   x=172   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=52   x=201   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=53   x=230   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=54   x=259   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=55   x=288   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=56   x=317   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=57   x=346   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=120  x=375   y=0     width=28    height=40    xoffset=0     yoffset=0     xadvance=28    page=0  chnl=15
+char id=21046 x=0     y=0     width=23    height=24    xoffset=1     yoffset=3     xadvance=26    page=1  chnl=15
+char id=21387 x=0     y=0     width=84    height=40    xoffset=0     yoffset=0     xadvance=84    page=0  chnl=15

@@ -1,0 +1,20 @@
+{"frames": [
+
+{
+	"filename": "1.png",
+	"frame": {"x":0,"y":0,"w":6,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":6,"h":44},
+	"sourceSize": {"w":6,"h":44}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "TextMeshProIcon.png",
+	"format": "RGBA8888",
+	"size": {"w":6,"h":44},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:508c307c281dc65a54544986fc2c1003:7f9ba9aecc7bfb1e2aed3c208721c263:bdc2c82e6099605d67d4e44beeeea99f$"
+}
+}

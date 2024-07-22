@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CustomPlugins : MonoBehaviour
 {
+    TestNoHot m_UILobby = null;
     // Start is called before the first frame update
     void Start()
     {

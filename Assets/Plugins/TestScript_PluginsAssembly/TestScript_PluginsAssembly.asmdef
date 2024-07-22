@@ -1,0 +1,16 @@
+{
+    "name": "TestScript_PluginsAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c213688293b66514a84f6ba53961700d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

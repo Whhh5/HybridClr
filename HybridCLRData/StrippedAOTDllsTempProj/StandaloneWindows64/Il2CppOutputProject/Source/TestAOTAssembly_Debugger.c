@@ -36,14 +36,14 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsTestAOTAssembly[];
 Il2CppSequencePoint g_sequencePointsTestAOTAssembly[8] = 
 {
-	{ 39094, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 } /* seqPointIndex: 0 */,
-	{ 39094, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 } /* seqPointIndex: 1 */,
-	{ 39094, 1, 13, 13, 5, 6, 0, kSequencePointKind_Normal, 0, 2 } /* seqPointIndex: 2 */,
-	{ 39094, 1, 15, 15, 5, 6, 1, kSequencePointKind_Normal, 0, 3 } /* seqPointIndex: 3 */,
-	{ 39095, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 4 } /* seqPointIndex: 4 */,
-	{ 39095, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 5 } /* seqPointIndex: 5 */,
-	{ 39095, 1, 19, 19, 5, 6, 0, kSequencePointKind_Normal, 0, 6 } /* seqPointIndex: 6 */,
-	{ 39095, 1, 21, 21, 5, 6, 1, kSequencePointKind_Normal, 0, 7 } /* seqPointIndex: 7 */,
+	{ 40670, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 } /* seqPointIndex: 0 */,
+	{ 40670, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 } /* seqPointIndex: 1 */,
+	{ 40670, 1, 13, 13, 5, 6, 0, kSequencePointKind_Normal, 0, 2 } /* seqPointIndex: 2 */,
+	{ 40670, 1, 15, 15, 5, 6, 1, kSequencePointKind_Normal, 0, 3 } /* seqPointIndex: 3 */,
+	{ 40671, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 4 } /* seqPointIndex: 4 */,
+	{ 40671, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 5 } /* seqPointIndex: 5 */,
+	{ 40671, 1, 19, 19, 5, 6, 0, kSequencePointKind_Normal, 0, 6 } /* seqPointIndex: 6 */,
+	{ 40671, 1, 21, 21, 5, 6, 1, kSequencePointKind_Normal, 0, 7 } /* seqPointIndex: 7 */,
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsTestAOTAssembly[];
@@ -65,7 +65,7 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = 
 {
-	{ 5692, 1 },
+	{ 5815, 1 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };

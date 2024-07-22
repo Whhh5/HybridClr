@@ -1,0 +1,16 @@
+{
+    "name": "TestScript_EditorAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:599ad471fcb2c2a479164c7ef1fb91d4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

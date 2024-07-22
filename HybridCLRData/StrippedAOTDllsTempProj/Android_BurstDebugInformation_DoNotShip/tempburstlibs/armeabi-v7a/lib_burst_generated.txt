@@ -149,7 +149,6 @@ Library: lib_burst_generated
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\UniTask.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
---root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Assembly-CSharp-firstpass.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\UniTask.Linq.dll
@@ -165,6 +164,7 @@ Library: lib_burst_generated
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.ScriptableBuildPipeline.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\LitJsonAssembly.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\UniTask.DOTween.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\HybridCLR.Runtime.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
@@ -172,10 +172,17 @@ Library: lib_burst_generated
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
---root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\UniTask.TextMeshPro.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\TestHotAssembly.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\AOTAssembly.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\UniTask.TextMeshPro.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\TestNoHotAssembly.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\TestScript_AOTAssembly.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\TestScript_EditorAssembly.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\TestAOTAssembly.dll
 --root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\UniTask.Addressables.dll
+--root-assembly=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\TestScript_PluginsAssembly.dll
 --assembly-folder=F:\MyProject\HyBridCLR\HybridCLR1\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10

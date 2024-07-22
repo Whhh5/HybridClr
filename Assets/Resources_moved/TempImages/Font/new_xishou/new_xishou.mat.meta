@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 655a530a4f9c88640b51d808af9e1a23
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: '{"$type":"System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object,
+    mscorlib]], mscorlib","MATERIL_INFO_FLAG":"{\"MaterialGUID\":\"655a530a4f9c88640b51d808af9e1a23\",\"ShaderName\":\"UI/Default\"}"}'
+  assetBundleName: 
+  assetBundleVariant: 

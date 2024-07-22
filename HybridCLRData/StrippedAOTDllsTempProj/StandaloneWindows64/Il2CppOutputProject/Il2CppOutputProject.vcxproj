@@ -113,6 +113,10 @@
     </ClCompile>
     <ClCompile Include="Source\Generics11.cpp">
     </ClCompile>
+    <ClCompile Include="Source\Generics110.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\Generics111.cpp">
+    </ClCompile>
     <ClCompile Include="Source\Generics12.cpp">
     </ClCompile>
     <ClCompile Include="Source\Generics13.cpp">
@@ -327,6 +331,8 @@
     </ClCompile>
     <ClCompile Include="Source\Il2CppReversePInvokeWrapperTable.cpp">
     </ClCompile>
+    <ClCompile Include="Source\LitJsonAssembly.cpp">
+    </ClCompile>
     <ClCompile Include="Source\Mono.Security.cpp">
     </ClCompile>
     <ClCompile Include="Source\mscorlib.cpp">
@@ -350,6 +356,8 @@
     <ClCompile Include="Source\mscorlib17.cpp">
     </ClCompile>
     <ClCompile Include="Source\mscorlib18.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\mscorlib19.cpp">
     </ClCompile>
     <ClCompile Include="Source\mscorlib2.cpp">
     </ClCompile>
@@ -382,6 +390,10 @@
     <ClCompile Include="Source\System3.cpp">
     </ClCompile>
     <ClCompile Include="Source\TestAOTAssembly.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\TestHotAssembly.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\TestNoHotAssembly.cpp">
     </ClCompile>
     <ClCompile Include="Source\UniTask.Addressables.cpp">
     </ClCompile>
@@ -446,6 +458,8 @@
     <ClCompile Include="Source\UnityEngine.CoreModule1.cpp">
     </ClCompile>
     <ClCompile Include="Source\UnityEngine.CoreModule2.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\UnityEngine.CoreModule3.cpp">
     </ClCompile>
     <ClCompile Include="Source\UnityEngine.cpp">
     </ClCompile>
@@ -593,6 +607,10 @@
     </ClCompile>
     <ClCompile Include="Source\Il2CppTypeDefinitions.c">
     </ClCompile>
+    <ClCompile Include="Source\LitJsonAssembly_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\LitJsonAssembly_Debugger.c">
+    </ClCompile>
     <ClCompile Include="Source\Mono.Security_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\Mono.Security_Debugger.c">
@@ -620,6 +638,14 @@
     <ClCompile Include="Source\TestAOTAssembly_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\TestAOTAssembly_Debugger.c">
+    </ClCompile>
+    <ClCompile Include="Source\TestHotAssembly_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\TestHotAssembly_Debugger.c">
+    </ClCompile>
+    <ClCompile Include="Source\TestNoHotAssembly_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\TestNoHotAssembly_Debugger.c">
     </ClCompile>
     <ClCompile Include="Source\UniTask.Addressables_CodeGen.c">
     </ClCompile>
